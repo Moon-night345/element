@@ -1,0 +1,52 @@
+{
+  "steps": [
+    {
+      "id": "awaken",
+      "text_key": "ui.objective.awaken"
+    },
+    {
+      "id": "guide_contact",
+      "text_key": "ui.objective.guide"
+    },
+    {
+      "id": "find_exit",
+      "text_key": "ui.objective.find_exit"
+    },
+    {
+      "id": "repair_pickaxe",
+      "text_key": "ui.objective.repair_pickaxe"
+    },
+    {
+      "id": "capture_hydrogen",
+      "text_key": "ui.objective.hydrogen"
+    },
+    {
+      "id": "synthesis",
+      "text_key": "ui.objective.synthesis"
+    },
+    {
+      "id": "demonstrate",
+      "text_key": "ui.objective.demonstrate"
+    },
+    {
+      "id": "airlock",
+      "text_key": "ui.objective.airlock"
+    },
+    {
+      "id": "calm_shards",
+      "text_key": "ui.objective.calm_shards"
+    },
+    {
+      "id": "lab_stage3",
+      "text_key": "ui.objective.lab_stage3"
+    },
+    {
+      "id": "descend_memories",
+      "text_key": "ui.objective.descend_memories"
+    },
+    {
+      "id": "core_ending",
+      "text_key": "ui.objective.core_ending"
+    }
+  ]
+}

@@ -1,0 +1,1431 @@
+{
+  "materials": [
+    {
+      "id": "element_h",
+      "kind": "element",
+      "name": "氢",
+      "symbol": "H"
+    },
+    {
+      "id": "element_o",
+      "kind": "element",
+      "name": "O",
+      "symbol": "O"
+    },
+    {
+      "id": "element_c",
+      "kind": "element",
+      "name": "C",
+      "symbol": "C"
+    },
+    {
+      "id": "element_n",
+      "kind": "element",
+      "name": "N",
+      "symbol": "N"
+    },
+    {
+      "id": "element_cl",
+      "kind": "element",
+      "name": "Cl",
+      "symbol": "Cl"
+    },
+    {
+      "id": "element_s",
+      "kind": "element",
+      "name": "S",
+      "symbol": "S"
+    },
+    {
+      "id": "element_na",
+      "kind": "element",
+      "name": "Na",
+      "symbol": "Na"
+    },
+    {
+      "id": "element_k",
+      "kind": "element",
+      "name": "K",
+      "symbol": "K"
+    },
+    {
+      "id": "element_ca",
+      "kind": "element",
+      "name": "Ca",
+      "symbol": "Ca"
+    },
+    {
+      "id": "element_ba",
+      "kind": "element",
+      "name": "Ba",
+      "symbol": "Ba"
+    },
+    {
+      "id": "element_cu",
+      "kind": "element",
+      "name": "Cu",
+      "symbol": "Cu"
+    },
+    {
+      "id": "element_fe",
+      "kind": "element",
+      "name": "Fe",
+      "symbol": "Fe"
+    },
+    {
+      "id": "element_zn",
+      "kind": "element",
+      "name": "Zn",
+      "symbol": "Zn"
+    },
+    {
+      "id": "element_ag",
+      "kind": "element",
+      "name": "Ag",
+      "symbol": "Ag"
+    },
+    {
+      "id": "ion_no3",
+      "kind": "ion",
+      "name": "NO₃⁻",
+      "symbol": "NO₃⁻"
+    },
+    {
+      "id": "ion_so4",
+      "kind": "ion",
+      "name": "SO₄²⁻",
+      "symbol": "SO₄²⁻"
+    },
+    {
+      "id": "ion_oh",
+      "kind": "ion",
+      "name": "OH⁻",
+      "symbol": "OH⁻"
+    },
+    {
+      "id": "ion_co3",
+      "kind": "ion",
+      "name": "CO₃²⁻",
+      "symbol": "CO₃²⁻"
+    },
+    {
+      "id": "ion_nh4",
+      "kind": "ion",
+      "name": "NH₄⁺",
+      "symbol": "NH₄⁺"
+    },
+    {
+      "id": "compound_h2",
+      "kind": "compound",
+      "name": "H₂",
+      "symbol": "H₂"
+    },
+    {
+      "id": "compound_o2",
+      "kind": "compound",
+      "name": "O₂",
+      "symbol": "O₂"
+    },
+    {
+      "id": "compound_h2o",
+      "kind": "compound",
+      "name": "H₂O",
+      "symbol": "H₂O"
+    },
+    {
+      "id": "compound_co2",
+      "kind": "compound",
+      "name": "CO₂",
+      "symbol": "CO₂"
+    },
+    {
+      "id": "compound_co",
+      "kind": "compound",
+      "name": "CO",
+      "symbol": "CO"
+    },
+    {
+      "id": "compound_ch4",
+      "kind": "compound",
+      "name": "CH₄",
+      "symbol": "CH₄"
+    },
+    {
+      "id": "compound_c2h2",
+      "kind": "compound",
+      "name": "C₂H₂",
+      "symbol": "C₂H₂"
+    },
+    {
+      "id": "compound_hcl",
+      "kind": "compound",
+      "name": "HCl",
+      "symbol": "HCl"
+    },
+    {
+      "id": "compound_naoh",
+      "kind": "compound",
+      "name": "NaOH",
+      "symbol": "NaOH"
+    },
+    {
+      "id": "compound_h2so4",
+      "kind": "compound",
+      "name": "H₂SO₄",
+      "symbol": "H₂SO₄"
+    },
+    {
+      "id": "compound_hno3",
+      "kind": "compound",
+      "name": "HNO₃",
+      "symbol": "HNO₃"
+    },
+    {
+      "id": "compound_nh3",
+      "kind": "compound",
+      "name": "NH₃",
+      "symbol": "NH₃"
+    },
+    {
+      "id": "compound_nacl",
+      "kind": "compound",
+      "name": "NaCl",
+      "symbol": "NaCl"
+    },
+    {
+      "id": "compound_fe2o3",
+      "kind": "compound",
+      "name": "Fe₂O₃",
+      "symbol": "Fe₂O₃"
+    },
+    {
+      "id": "compound_cuo",
+      "kind": "compound",
+      "name": "CuO",
+      "symbol": "CuO"
+    },
+    {
+      "id": "compound_zno",
+      "kind": "compound",
+      "name": "ZnO",
+      "symbol": "ZnO"
+    },
+    {
+      "id": "compound_zncl2",
+      "kind": "compound",
+      "name": "ZnCl₂",
+      "symbol": "ZnCl₂"
+    },
+    {
+      "id": "compound_agno3",
+      "kind": "compound",
+      "name": "AgNO₃",
+      "symbol": "AgNO₃"
+    },
+    {
+      "id": "compound_agcl",
+      "kind": "compound",
+      "name": "AgCl",
+      "symbol": "AgCl"
+    },
+    {
+      "id": "compound_baso4",
+      "kind": "compound",
+      "name": "BaSO₄",
+      "symbol": "BaSO₄"
+    },
+    {
+      "id": "compound_cuso4",
+      "kind": "compound",
+      "name": "CuSO₄",
+      "symbol": "CuSO₄"
+    },
+    {
+      "id": "compound_caoh2",
+      "kind": "compound",
+      "name": "Ca(OH)₂",
+      "symbol": "Ca(OH)₂"
+    },
+    {
+      "id": "compound_n2",
+      "kind": "compound",
+      "name": "N₂",
+      "symbol": "N₂"
+    },
+    {
+      "id": "compound_no",
+      "kind": "compound",
+      "name": "NO",
+      "symbol": "NO"
+    },
+    {
+      "id": "compound_no2",
+      "kind": "compound",
+      "name": "NO₂",
+      "symbol": "NO₂"
+    },
+    {
+      "id": "compound_nh4cl",
+      "kind": "compound",
+      "name": "NH₄Cl",
+      "symbol": "NH₄Cl"
+    },
+    {
+      "id": "compound_so2",
+      "kind": "compound",
+      "name": "SO₂",
+      "symbol": "SO₂"
+    },
+    {
+      "id": "compound_h2o2",
+      "kind": "compound",
+      "name": "H₂O₂",
+      "symbol": "H₂O₂"
+    },
+    {
+      "id": "compound_cl2",
+      "kind": "compound",
+      "name": "Cl₂",
+      "symbol": "Cl₂"
+    },
+    {
+      "id": "resource_mno4",
+      "kind": "compound",
+      "name": "MnO₄ 矿块",
+      "symbol": "MnO₄ 矿块"
+    },
+    {
+      "id": "compound_kmno4",
+      "kind": "compound",
+      "name": "KMnO₄",
+      "symbol": "KMnO₄"
+    },
+    {
+      "id": "organic_glucose",
+      "kind": "compound",
+      "name": "葡萄糖 C₆H₁₂O₆",
+      "symbol": "葡萄糖 C₆H₁₂O₆"
+    },
+    {
+      "id": "compound_ethanol",
+      "kind": "compound",
+      "name": "C₂H₅OH",
+      "symbol": "C₂H₅OH"
+    },
+    {
+      "id": "compound_caco3",
+      "kind": "compound",
+      "name": "CaCO₃",
+      "symbol": "CaCO₃"
+    },
+    {
+      "id": "compound_cao",
+      "kind": "compound",
+      "name": "CaO",
+      "symbol": "CaO"
+    }
+  ],
+  "reactions": [
+    {
+      "any_tags": [],
+      "branch": "A",
+      "id": "reaction_h2_synthesis",
+      "language": "language_rise_freedom",
+      "memory_id": "memory_01",
+      "products": [
+        {
+          "id": "compound_h2",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "element_h",
+          "n": 2
+        }
+      ],
+      "shard_id": "shard_guide",
+      "tags": [],
+      "title": "reaction_h2_synthesis"
+    },
+    {
+      "any_tags": [],
+      "branch": "A",
+      "id": "reaction_o2_synthesis",
+      "language": "language_revival_breath",
+      "memory_id": "memory_01",
+      "products": [
+        {
+          "id": "compound_o2",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "element_o",
+          "n": 2
+        }
+      ],
+      "shard_id": "shard_guide",
+      "tags": [],
+      "title": "reaction_o2_synthesis"
+    },
+    {
+      "any_tags": [],
+      "branch": "A",
+      "id": "reaction_water_synthesis",
+      "language": "language_rest_mercy",
+      "memory_id": "memory_03",
+      "products": [
+        {
+          "id": "compound_h2o",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "element_h",
+          "n": 2
+        },
+        {
+          "id": "element_o",
+          "n": 1
+        }
+      ],
+      "shard_id": "shard_preserver",
+      "tags": [
+        "wet"
+      ],
+      "title": "reaction_water_synthesis"
+    },
+    {
+      "any_tags": [],
+      "branch": "A",
+      "id": "reaction_water_electrolysis",
+      "language": "language_dissection",
+      "memory_id": "memory_07",
+      "products": [
+        {
+          "id": "compound_h2",
+          "n": 1
+        },
+        {
+          "id": "compound_o2",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "compound_h2o",
+          "n": 1
+        }
+      ],
+      "shard_id": "shard_corrector",
+      "tags": [
+        "electric"
+      ],
+      "title": "reaction_water_electrolysis"
+    },
+    {
+      "any_tags": [],
+      "branch": "B",
+      "id": "reaction_co2",
+      "language": "language_smother_cover",
+      "memory_id": "memory_05",
+      "products": [
+        {
+          "id": "compound_co2",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "element_c",
+          "n": 1
+        },
+        {
+          "id": "element_o",
+          "n": 2
+        }
+      ],
+      "shard_id": "shard_burner",
+      "tags": [
+        "heat"
+      ],
+      "title": "reaction_co2"
+    },
+    {
+      "any_tags": [],
+      "branch": "B",
+      "id": "reaction_co",
+      "language": "language_choke",
+      "memory_id": "memory_08",
+      "products": [
+        {
+          "id": "compound_co",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "element_c",
+          "n": 1
+        },
+        {
+          "id": "element_o",
+          "n": 1
+        }
+      ],
+      "shard_id": "shard_dreamer",
+      "tags": [
+        "low_oxygen"
+      ],
+      "title": "reaction_co"
+    },
+    {
+      "any_tags": [],
+      "branch": "B",
+      "id": "reaction_ch4",
+      "language": "language_fuel",
+      "memory_id": "memory_05",
+      "products": [
+        {
+          "id": "compound_ch4",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "element_c",
+          "n": 1
+        },
+        {
+          "id": "element_h",
+          "n": 4
+        }
+      ],
+      "shard_id": "shard_burner",
+      "tags": [
+        "heat"
+      ],
+      "title": "reaction_ch4"
+    },
+    {
+      "any_tags": [],
+      "branch": "B",
+      "id": "reaction_c2h2",
+      "language": "language_cut",
+      "memory_id": "memory_08",
+      "products": [
+        {
+          "id": "compound_c2h2",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "element_c",
+          "n": 2
+        },
+        {
+          "id": "element_h",
+          "n": 2
+        }
+      ],
+      "shard_id": "shard_gatekeeper",
+      "tags": [
+        "heat"
+      ],
+      "title": "reaction_c2h2"
+    },
+    {
+      "any_tags": [],
+      "branch": "B",
+      "id": "reaction_combustion",
+      "language": "language_burn",
+      "memory_id": "memory_05",
+      "products": [
+        {
+          "id": "compound_co2",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "compound_ch4",
+          "n": 1
+        },
+        {
+          "id": "compound_o2",
+          "n": 1
+        }
+      ],
+      "shard_id": "shard_burner",
+      "tags": [
+        "heat"
+      ],
+      "title": "reaction_combustion"
+    },
+    {
+      "any_tags": [],
+      "branch": "C",
+      "id": "reaction_hcl",
+      "language": "language_break_truth",
+      "memory_id": "memory_02",
+      "products": [
+        {
+          "id": "compound_hcl",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "element_h",
+          "n": 1
+        },
+        {
+          "id": "element_cl",
+          "n": 1
+        }
+      ],
+      "shard_id": "shard_cleanser",
+      "tags": [],
+      "title": "reaction_hcl"
+    },
+    {
+      "any_tags": [],
+      "branch": "C",
+      "id": "reaction_naoh",
+      "language": "language_dissolve",
+      "memory_id": "memory_04",
+      "products": [
+        {
+          "id": "compound_naoh",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "element_na",
+          "n": 1
+        },
+        {
+          "id": "ion_oh",
+          "n": 1
+        }
+      ],
+      "shard_id": "shard_precipitator",
+      "tags": [],
+      "title": "reaction_naoh"
+    },
+    {
+      "any_tags": [],
+      "branch": "C",
+      "id": "reaction_h2so4",
+      "language": "language_dry",
+      "memory_id": "memory_05",
+      "products": [
+        {
+          "id": "compound_h2so4",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "element_s",
+          "n": 1
+        },
+        {
+          "id": "element_o",
+          "n": 3
+        },
+        {
+          "id": "compound_h2o",
+          "n": 1
+        }
+      ],
+      "shard_id": "shard_burner",
+      "tags": [
+        "heat"
+      ],
+      "title": "reaction_h2so4"
+    },
+    {
+      "any_tags": [],
+      "branch": "C",
+      "id": "reaction_hno3",
+      "language": "language_etch",
+      "memory_id": "memory_07",
+      "products": [
+        {
+          "id": "compound_hno3",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "element_n",
+          "n": 1
+        },
+        {
+          "id": "element_o",
+          "n": 3
+        }
+      ],
+      "shard_id": "shard_corrector",
+      "tags": [
+        "electric"
+      ],
+      "title": "reaction_hno3"
+    },
+    {
+      "any_tags": [],
+      "branch": "C",
+      "id": "reaction_nh3",
+      "language": "language_nourish",
+      "memory_id": "memory_07",
+      "products": [
+        {
+          "id": "compound_nh3",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "element_n",
+          "n": 1
+        },
+        {
+          "id": "element_h",
+          "n": 3
+        }
+      ],
+      "shard_id": "shard_core_mind",
+      "tags": [
+        "high_pressure"
+      ],
+      "title": "reaction_nh3"
+    },
+    {
+      "any_tags": [],
+      "branch": "C",
+      "id": "reaction_neutralization",
+      "language": "language_balance",
+      "memory_id": "memory_04",
+      "products": [
+        {
+          "id": "compound_nacl",
+          "n": 1
+        },
+        {
+          "id": "compound_h2o",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "compound_hcl",
+          "n": 1
+        },
+        {
+          "id": "compound_naoh",
+          "n": 1
+        }
+      ],
+      "shard_id": "shard_precipitator",
+      "tags": [
+        "wet"
+      ],
+      "title": "reaction_neutralization"
+    },
+    {
+      "any_tags": [],
+      "branch": "D",
+      "id": "reaction_fe_refine",
+      "language": "language_forge",
+      "memory_id": "memory_08",
+      "products": [
+        {
+          "id": "element_fe",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "compound_fe2o3",
+          "n": 1
+        },
+        {
+          "id": "element_c",
+          "n": 1
+        }
+      ],
+      "shard_id": "shard_excavator",
+      "tags": [
+        "heat"
+      ],
+      "title": "reaction_fe_refine"
+    },
+    {
+      "any_tags": [],
+      "branch": "D",
+      "id": "reaction_cu_refine",
+      "language": "language_connect",
+      "memory_id": "memory_07",
+      "products": [
+        {
+          "id": "element_cu",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "compound_cuo",
+          "n": 1
+        },
+        {
+          "id": "element_c",
+          "n": 1
+        }
+      ],
+      "shard_id": "shard_corrector",
+      "tags": [
+        "heat"
+      ],
+      "title": "reaction_cu_refine"
+    },
+    {
+      "any_tags": [],
+      "branch": "D",
+      "id": "reaction_zn_refine",
+      "language": "language_coat",
+      "memory_id": "memory_08",
+      "products": [
+        {
+          "id": "element_zn",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "compound_zno",
+          "n": 1
+        },
+        {
+          "id": "element_c",
+          "n": 1
+        }
+      ],
+      "shard_id": "shard_excavator",
+      "tags": [
+        "heat"
+      ],
+      "title": "reaction_zn_refine"
+    },
+    {
+      "any_tags": [],
+      "branch": "D",
+      "id": "reaction_rust",
+      "language": "language_decay",
+      "memory_id": "memory_02",
+      "products": [
+        {
+          "id": "compound_fe2o3",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "element_fe",
+          "n": 1
+        },
+        {
+          "id": "element_o",
+          "n": 3
+        }
+      ],
+      "shard_id": "shard_cleanser",
+      "tags": [
+        "wet"
+      ],
+      "title": "reaction_rust"
+    },
+    {
+      "any_tags": [],
+      "branch": "D",
+      "id": "reaction_displacement",
+      "language": "language_exchange",
+      "memory_id": "memory_08",
+      "products": [
+        {
+          "id": "compound_zncl2",
+          "n": 1
+        },
+        {
+          "id": "compound_h2",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "element_zn",
+          "n": 1
+        },
+        {
+          "id": "compound_hcl",
+          "n": 1
+        }
+      ],
+      "shard_id": "shard_excavator",
+      "tags": [],
+      "title": "reaction_displacement"
+    },
+    {
+      "any_tags": [],
+      "branch": "E",
+      "id": "reaction_agno3",
+      "language": "language_test",
+      "memory_id": "memory_08",
+      "products": [
+        {
+          "id": "compound_agno3",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "element_ag",
+          "n": 1
+        },
+        {
+          "id": "ion_no3",
+          "n": 1
+        }
+      ],
+      "shard_id": "shard_precipitator",
+      "tags": [],
+      "title": "reaction_agno3"
+    },
+    {
+      "any_tags": [],
+      "branch": "E",
+      "id": "reaction_agcl",
+      "language": "language_witness",
+      "memory_id": "memory_04",
+      "products": [
+        {
+          "id": "compound_agcl",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "compound_agno3",
+          "n": 1
+        },
+        {
+          "id": "compound_hcl",
+          "n": 1
+        }
+      ],
+      "shard_id": "shard_precipitator",
+      "tags": [
+        "wet"
+      ],
+      "title": "reaction_agcl"
+    },
+    {
+      "any_tags": [],
+      "branch": "E",
+      "id": "reaction_baso4",
+      "language": "language_anchor",
+      "memory_id": "memory_08",
+      "products": [
+        {
+          "id": "compound_baso4",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "element_ba",
+          "n": 1
+        },
+        {
+          "id": "ion_so4",
+          "n": 1
+        }
+      ],
+      "shard_id": "shard_memory",
+      "tags": [
+        "wet"
+      ],
+      "title": "reaction_baso4"
+    },
+    {
+      "any_tags": [],
+      "branch": "E",
+      "id": "reaction_cuso4",
+      "language": "language_water",
+      "memory_id": "memory_07",
+      "products": [
+        {
+          "id": "compound_cuso4",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "element_cu",
+          "n": 1
+        },
+        {
+          "id": "ion_so4",
+          "n": 1
+        }
+      ],
+      "shard_id": "shard_corrector",
+      "tags": [
+        "wet"
+      ],
+      "title": "reaction_cuso4"
+    },
+    {
+      "any_tags": [],
+      "branch": "E",
+      "id": "reaction_lime_cycle",
+      "language": "language_cycle",
+      "memory_id": "memory_03",
+      "products": [
+        {
+          "id": "compound_caoh2",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "element_ca",
+          "n": 1
+        },
+        {
+          "id": "ion_oh",
+          "n": 2
+        }
+      ],
+      "shard_id": "shard_preserver",
+      "tags": [
+        "wet"
+      ],
+      "title": "reaction_lime_cycle"
+    },
+    {
+      "any_tags": [
+        "electric",
+        "cold"
+      ],
+      "branch": "F",
+      "id": "reaction_n2",
+      "language": "language_silence",
+      "memory_id": "memory_07",
+      "products": [
+        {
+          "id": "compound_n2",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "element_n",
+          "n": 2
+        }
+      ],
+      "shard_id": "shard_corrector",
+      "tags": [],
+      "title": "reaction_n2"
+    },
+    {
+      "any_tags": [],
+      "branch": "F",
+      "id": "reaction_nh3_from_n2",
+      "language": "language_nourish",
+      "memory_id": "memory_07",
+      "products": [
+        {
+          "id": "compound_nh3",
+          "n": 2
+        }
+      ],
+      "reactants": [
+        {
+          "id": "compound_n2",
+          "n": 1
+        },
+        {
+          "id": "compound_h2",
+          "n": 3
+        }
+      ],
+      "shard_id": "shard_core_mind",
+      "tags": [
+        "high_pressure"
+      ],
+      "title": "reaction_nh3_from_n2"
+    },
+    {
+      "any_tags": [],
+      "branch": "F",
+      "id": "reaction_no",
+      "language": "language_transform",
+      "memory_id": "memory_07",
+      "products": [
+        {
+          "id": "compound_no",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "compound_nh3",
+          "n": 1
+        },
+        {
+          "id": "element_o",
+          "n": 1
+        }
+      ],
+      "shard_id": "shard_corrector",
+      "tags": [
+        "electric"
+      ],
+      "title": "reaction_no"
+    },
+    {
+      "any_tags": [],
+      "branch": "F",
+      "id": "reaction_no2",
+      "language": "language_warning",
+      "memory_id": "memory_07",
+      "products": [
+        {
+          "id": "compound_no2",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "compound_no",
+          "n": 1
+        },
+        {
+          "id": "element_o",
+          "n": 1
+        }
+      ],
+      "shard_id": "shard_corrector",
+      "tags": [
+        "electric"
+      ],
+      "title": "reaction_no2"
+    },
+    {
+      "any_tags": [],
+      "branch": "F",
+      "id": "reaction_hno3_from_no2",
+      "language": "language_assault",
+      "memory_id": "memory_07",
+      "products": [
+        {
+          "id": "compound_hno3",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "compound_no2",
+          "n": 1
+        },
+        {
+          "id": "compound_h2o",
+          "n": 1
+        }
+      ],
+      "shard_id": "shard_core_mind",
+      "tags": [
+        "electric",
+        "wet"
+      ],
+      "title": "reaction_hno3_from_no2"
+    },
+    {
+      "any_tags": [],
+      "branch": "F",
+      "id": "reaction_nh4cl",
+      "language": "language_sublime",
+      "memory_id": "memory_02",
+      "products": [
+        {
+          "id": "compound_nh4cl",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "compound_nh3",
+          "n": 1
+        },
+        {
+          "id": "compound_hcl",
+          "n": 1
+        }
+      ],
+      "shard_id": "shard_dreamer",
+      "tags": [],
+      "title": "reaction_nh4cl"
+    },
+    {
+      "any_tags": [],
+      "branch": "G",
+      "id": "reaction_so2",
+      "language": "language_fade",
+      "memory_id": "memory_05",
+      "products": [
+        {
+          "id": "compound_so2",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "element_s",
+          "n": 1
+        },
+        {
+          "id": "element_o",
+          "n": 2
+        }
+      ],
+      "shard_id": "shard_igniter",
+      "tags": [
+        "heat"
+      ],
+      "title": "reaction_so2"
+    },
+    {
+      "any_tags": [],
+      "branch": "G",
+      "id": "reaction_h2o2",
+      "language": "language_cleanse",
+      "memory_id": "memory_02",
+      "products": [
+        {
+          "id": "compound_h2o2",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "compound_h2o",
+          "n": 2
+        }
+      ],
+      "shard_id": "shard_dreamer",
+      "tags": [
+        "dark"
+      ],
+      "title": "reaction_h2o2"
+    },
+    {
+      "any_tags": [],
+      "branch": "G",
+      "id": "reaction_cl2",
+      "language": "language_bleach",
+      "memory_id": "memory_02",
+      "products": [
+        {
+          "id": "compound_cl2",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "element_cl",
+          "n": 2
+        }
+      ],
+      "shard_id": "shard_cleanser",
+      "tags": [
+        "electric"
+      ],
+      "title": "reaction_cl2"
+    },
+    {
+      "any_tags": [],
+      "branch": "G",
+      "id": "reaction_kmno4",
+      "language": "language_oxidize",
+      "memory_id": "memory_07",
+      "products": [
+        {
+          "id": "compound_kmno4",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "element_k",
+          "n": 1
+        },
+        {
+          "id": "resource_mno4",
+          "n": 1
+        }
+      ],
+      "shard_id": "shard_leaker",
+      "tags": [
+        "radiation"
+      ],
+      "title": "reaction_kmno4"
+    },
+    {
+      "any_tags": [],
+      "branch": "H",
+      "id": "reaction_ethanol",
+      "language": "language_ferment",
+      "memory_id": "memory_02",
+      "products": [
+        {
+          "id": "compound_ethanol",
+          "n": 1
+        },
+        {
+          "id": "compound_co2",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "organic_glucose",
+          "n": 1
+        }
+      ],
+      "shard_id": "shard_dreamer",
+      "tags": [
+        "dark",
+        "wet"
+      ],
+      "title": "reaction_ethanol"
+    },
+    {
+      "any_tags": [],
+      "branch": "H",
+      "id": "reaction_caco3",
+      "language": "language_store",
+      "memory_id": "memory_03",
+      "products": [
+        {
+          "id": "compound_caco3",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "element_ca",
+          "n": 1
+        },
+        {
+          "id": "ion_co3",
+          "n": 1
+        }
+      ],
+      "shard_id": "shard_preserver",
+      "tags": [
+        "wet"
+      ],
+      "title": "reaction_caco3"
+    },
+    {
+      "any_tags": [],
+      "branch": "H",
+      "id": "reaction_caco3_decompose",
+      "language": "language_release",
+      "memory_id": "memory_08",
+      "products": [
+        {
+          "id": "compound_cao",
+          "n": 1
+        },
+        {
+          "id": "compound_co2",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "compound_caco3",
+          "n": 1
+        }
+      ],
+      "shard_id": "shard_memory",
+      "tags": [
+        "heat"
+      ],
+      "title": "reaction_caco3_decompose"
+    },
+    {
+      "any_tags": [],
+      "branch": "H",
+      "id": "reaction_co2_lime_test",
+      "language": "language_reveal",
+      "memory_id": "memory_08",
+      "products": [
+        {
+          "id": "compound_caco3",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "compound_co2",
+          "n": 1
+        },
+        {
+          "id": "compound_caoh2",
+          "n": 1
+        }
+      ],
+      "shard_id": "shard_memory",
+      "tags": [
+        "wet"
+      ],
+      "title": "reaction_co2_lime_test"
+    },
+    {
+      "any_tags": [],
+      "branch": "G",
+      "id": "reaction_h2o2_decompose",
+      "language": "language_rebirth",
+      "memory_id": "memory_02",
+      "products": [
+        {
+          "id": "compound_h2o",
+          "n": 1
+        },
+        {
+          "id": "compound_o2",
+          "n": 1
+        }
+      ],
+      "reactants": [
+        {
+          "id": "compound_h2o2",
+          "n": 1
+        }
+      ],
+      "shard_id": "shard_dreamer",
+      "tags": [
+        "dark"
+      ],
+      "title": "reaction_h2o2_decompose"
+    }
+  ]
+}

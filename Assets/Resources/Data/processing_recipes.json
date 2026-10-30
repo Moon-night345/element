@@ -1,0 +1,1129 @@
+{
+  "recipes": [
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_high_pressure_catalytic_reactor",
+      "device_type": "high_pressure_catalytic_reaction",
+      "id": "recipe_phase4b_device12_co2_h2_conversion",
+      "input_items": [
+        {
+          "id": "compound_co2",
+          "n": 1
+        },
+        {
+          "id": "compound_h2",
+          "n": 1
+        }
+      ],
+      "output_items": [
+        {
+          "id": "compound_reduced_carbon_liquid",
+          "n": 1
+        }
+      ],
+      "process_inputs": [
+        {
+          "id": "material_silver_catalytic",
+          "n": 1
+        }
+      ],
+      "processing_time": 4.0,
+      "progression_tags": [
+        "phase4b",
+        "device_12",
+        "formal_reaction"
+      ],
+      "required_conditions": [
+        {
+          "id": "pressure",
+          "value": "PRESSURE_HIGH"
+        },
+        {
+          "id": "temperature_condition",
+          "value": "HIGH"
+        },
+        {
+          "id": "internal_process",
+          "value": "True"
+        }
+      ],
+      "required_stage": 3
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_chemical_workbench",
+      "device_type": "assembly",
+      "id": "recipe_stage0_furnace_kit",
+      "input_items": [
+        {
+          "id": "material_iron",
+          "n": 4
+        },
+        {
+          "id": "material_refractory",
+          "n": 2
+        }
+      ],
+      "output_items": [
+        {
+          "id": "item_small_chemical_furnace_kit",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "stage_0",
+        "device_02"
+      ],
+      "required_conditions": [],
+      "required_stage": 0
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_chemical_workbench",
+      "device_type": "assembly",
+      "id": "recipe_stage0_charging_station_kit",
+      "input_items": [
+        {
+          "id": "material_iron",
+          "n": 3
+        },
+        {
+          "id": "material_copper",
+          "n": 2
+        },
+        {
+          "id": "material_glass",
+          "n": 1
+        }
+      ],
+      "output_items": [
+        {
+          "id": "item_synthesis_charging_station_kit",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "stage_0",
+        "device_03"
+      ],
+      "required_conditions": [],
+      "required_stage": 0
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_chemical_workbench",
+      "device_type": "assembly",
+      "id": "recipe_stage0_reaction_bench_kit",
+      "input_items": [
+        {
+          "id": "material_glass",
+          "n": 6
+        },
+        {
+          "id": "material_iron",
+          "n": 4
+        },
+        {
+          "id": "material_copper",
+          "n": 2
+        }
+      ],
+      "output_items": [
+        {
+          "id": "item_basic_reaction_bench_kit",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 1.0,
+      "progression_tags": [
+        "stage_0",
+        "device_04"
+      ],
+      "required_conditions": [],
+      "required_stage": 0
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_chemical_workbench",
+      "device_type": "assembly",
+      "id": "recipe_phase2_detector_kit",
+      "input_items": [
+        {
+          "id": "material_glass",
+          "n": 1
+        },
+        {
+          "id": "material_copper",
+          "n": 1
+        }
+      ],
+      "output_items": [
+        {
+          "id": "item_multi_chemical_analyzer_kit",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase2",
+        "device_05"
+      ],
+      "required_conditions": [
+        {
+          "id": "required_stage",
+          "value": "1"
+        }
+      ],
+      "required_stage": 1
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_chemical_workbench",
+      "device_type": "assembly",
+      "id": "recipe_phase2_filter_kit",
+      "input_items": [
+        {
+          "id": "material_iron",
+          "n": 1
+        },
+        {
+          "id": "material_glass",
+          "n": 1
+        }
+      ],
+      "output_items": [
+        {
+          "id": "item_industrial_solid_liquid_filter_kit",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase2",
+        "device_09"
+      ],
+      "required_conditions": [
+        {
+          "id": "required_stage",
+          "value": "1"
+        }
+      ],
+      "required_stage": 1
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_chemical_workbench",
+      "device_type": "assembly",
+      "id": "recipe_phase2_distiller_kit",
+      "input_items": [
+        {
+          "id": "material_iron",
+          "n": 2
+        },
+        {
+          "id": "material_glass",
+          "n": 1
+        },
+        {
+          "id": "material_refractory",
+          "n": 1
+        }
+      ],
+      "output_items": [
+        {
+          "id": "item_industrial_distiller_kit",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase2",
+        "device_06"
+      ],
+      "required_conditions": [
+        {
+          "id": "required_stage",
+          "value": "1"
+        }
+      ],
+      "required_stage": 1
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_multi_chemical_analyzer",
+      "device_type": "analyze",
+      "id": "recipe_phase2_detect",
+      "input_items": [
+        {
+          "id": "resource_mineral_water",
+          "n": 1
+        }
+      ],
+      "output_items": [
+        {
+          "id": "resource_mineral_water",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase2",
+        "device_05",
+        "declarative_only",
+        "runtime_service_only"
+      ],
+      "required_conditions": [],
+      "required_stage": 0
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_industrial_solid_liquid_filter",
+      "device_type": "separation",
+      "id": "recipe_phase2_filter",
+      "input_items": [
+        {
+          "id": "compound_mixed_reaction_slurry",
+          "n": 1
+        }
+      ],
+      "output_items": [
+        {
+          "id": "compound_precipitate_solid",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase2",
+        "device_09",
+        "declarative_only",
+        "runtime_service_only"
+      ],
+      "required_conditions": [],
+      "required_stage": 0
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_industrial_distiller",
+      "device_type": "distill",
+      "id": "recipe_phase2_distill",
+      "input_items": [
+        {
+          "id": "compound_neutralized_salt_solution",
+          "n": 1
+        }
+      ],
+      "output_items": [
+        {
+          "id": "compound_distilled_water",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase2",
+        "device_06",
+        "declarative_only",
+        "runtime_service_only"
+      ],
+      "required_conditions": [],
+      "required_stage": 0
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_chemical_workbench",
+      "device_type": "assembly",
+      "id": "recipe_phase3a_condenser_kit",
+      "input_items": [
+        {
+          "id": "material_iron",
+          "n": 2
+        },
+        {
+          "id": "material_glass",
+          "n": 2
+        },
+        {
+          "id": "material_refractory",
+          "n": 1
+        }
+      ],
+      "output_items": [
+        {
+          "id": "item_industrial_condenser_kit",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase3a",
+        "device_08"
+      ],
+      "required_conditions": [
+        {
+          "id": "required_stage",
+          "value": "1"
+        }
+      ],
+      "required_stage": 1
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_chemical_workbench",
+      "device_type": "assembly",
+      "id": "recipe_phase3a_gas_tank_kit",
+      "input_items": [
+        {
+          "id": "material_iron",
+          "n": 3
+        },
+        {
+          "id": "material_refractory",
+          "n": 2
+        }
+      ],
+      "output_items": [
+        {
+          "id": "item_high_pressure_gas_tank_kit",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase3a",
+        "device_10"
+      ],
+      "required_conditions": [
+        {
+          "id": "required_stage",
+          "value": "2"
+        }
+      ],
+      "required_stage": 2
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_industrial_condenser",
+      "device_type": "condense",
+      "id": "recipe_phase3a_condense_vapor",
+      "input_items": [
+        {
+          "id": "compound_ethanol",
+          "n": 1
+        }
+      ],
+      "output_items": [
+        {
+          "id": "compound_ethanol",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase3a",
+        "device_08",
+        "runtime_service_only"
+      ],
+      "required_conditions": [],
+      "required_stage": 2
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_high_pressure_gas_tank",
+      "device_type": "store_gas",
+      "id": "recipe_phase3a_store_gas",
+      "input_items": [
+        {
+          "id": "compound_co2",
+          "n": 1
+        }
+      ],
+      "output_items": [
+        {
+          "id": "compound_co2",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase3a",
+        "device_10",
+        "runtime_service_only"
+      ],
+      "required_conditions": [],
+      "required_stage": 2
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_small_chemical_furnace",
+      "device_type": "heat",
+      "id": "recipe_phase3a_thermal_carbonate",
+      "input_items": [
+        {
+          "id": "resource_carbonate_rock",
+          "n": 1
+        }
+      ],
+      "output_items": [
+        {
+          "id": "compound_cao",
+          "n": 1
+        },
+        {
+          "id": "compound_co2",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase3a",
+        "device_02",
+        "runtime_service_only"
+      ],
+      "required_conditions": [],
+      "required_stage": 0
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_small_chemical_furnace",
+      "device_type": "heat",
+      "id": "recipe_abandoned_mine_iron_ore",
+      "input_items": [
+        {
+          "id": "item_abandoned_mine_iron_bearing_ore_block",
+          "n": 1
+        }
+      ],
+      "output_items": [
+        {
+          "id": "material_iron",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase3a",
+        "device_02",
+        "runtime_service_only"
+      ],
+      "required_conditions": [],
+      "required_stage": 0
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_small_chemical_furnace",
+      "device_type": "heat",
+      "id": "recipe_abandoned_mine_copper_ore",
+      "input_items": [
+        {
+          "id": "item_abandoned_mine_copper_bearing_ore_block",
+          "n": 1
+        }
+      ],
+      "output_items": [
+        {
+          "id": "material_copper",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase3a",
+        "device_02",
+        "runtime_service_only"
+      ],
+      "required_conditions": [],
+      "required_stage": 0
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_small_chemical_furnace",
+      "device_type": "heat",
+      "id": "recipe_phase4b_core_high_strength_preprocess",
+      "input_items": [
+        {
+          "id": "item_core_shell_high_strength_mineral_block",
+          "n": 1
+        }
+      ],
+      "output_items": [
+        {
+          "id": "compound_conditioned_high_strength_mineral",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase4b",
+        "device_02",
+        "runtime_service_only"
+      ],
+      "required_conditions": [],
+      "required_stage": 3
+    },
+    {
+      "alternate_input_sets": [
+        {
+          "items": [
+            {
+              "id": "item_magnetic_plateau_silver_bearing_mineral_block",
+              "n": 1
+            }
+          ]
+        }
+      ],
+      "device_id": "device_small_chemical_furnace",
+      "device_type": "heat",
+      "id": "recipe_phase4b_silver_bearing_preprocess",
+      "input_items": [
+        {
+          "id": "item_abandoned_mine_silver_bearing_ore_block",
+          "n": 1
+        }
+      ],
+      "output_items": [
+        {
+          "id": "compound_preprocessed_silver_bearing_material",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase4b",
+        "device_02",
+        "silver_catalytic_material",
+        "runtime_service_only"
+      ],
+      "required_conditions": [],
+      "required_stage": 3
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_chemical_workbench",
+      "device_type": "assembly",
+      "id": "recipe_phase3b_electrolysis_cell_kit",
+      "input_items": [
+        {
+          "id": "material_copper",
+          "n": 8
+        },
+        {
+          "id": "material_iron",
+          "n": 5
+        },
+        {
+          "id": "material_glass",
+          "n": 8
+        }
+      ],
+      "output_items": [
+        {
+          "id": "item_industrial_electrolysis_cell_kit",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase3b",
+        "device_07"
+      ],
+      "required_conditions": [
+        {
+          "id": "required_stage",
+          "value": "2"
+        }
+      ],
+      "required_stage": 2
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_chemical_workbench",
+      "device_type": "assembly",
+      "id": "recipe_phase3b_reactor_kit",
+      "input_items": [
+        {
+          "id": "material_iron",
+          "n": 4
+        },
+        {
+          "id": "material_glass",
+          "n": 2
+        },
+        {
+          "id": "material_refractory",
+          "n": 3
+        }
+      ],
+      "output_items": [
+        {
+          "id": "item_large_industrial_reactor_kit",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase3b",
+        "device_11"
+      ],
+      "required_conditions": [
+        {
+          "id": "required_stage",
+          "value": "2"
+        }
+      ],
+      "required_stage": 2
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_industrial_electrolysis_cell",
+      "device_type": "electrolyze",
+      "id": "recipe_phase3b_electrolyze",
+      "input_items": [
+        {
+          "id": "compound_h2o",
+          "n": 1
+        }
+      ],
+      "output_items": [
+        {
+          "id": "compound_h2",
+          "n": 1
+        },
+        {
+          "id": "compound_o2",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase3b",
+        "device_07",
+        "runtime_service_only"
+      ],
+      "required_conditions": [],
+      "required_stage": 2
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_industrial_electrolysis_cell",
+      "device_type": "electrolyze",
+      "id": "recipe_phase4b_silver_catalytic_refine",
+      "input_items": [
+        {
+          "id": "compound_preprocessed_silver_bearing_material",
+          "n": 1
+        }
+      ],
+      "output_items": [
+        {
+          "id": "material_silver_catalytic",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase4b",
+        "device_07",
+        "silver_catalytic_material",
+        "runtime_service_only"
+      ],
+      "required_conditions": [
+        {
+          "id": "controlled_current",
+          "value": "True"
+        }
+      ],
+      "required_stage": 3
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_large_industrial_reactor",
+      "device_type": "batch_reaction",
+      "id": "recipe_phase3b_reactor_batch",
+      "input_items": [
+        {
+          "id": "compound_fe2o3",
+          "n": 1
+        },
+        {
+          "id": "element_c",
+          "n": 1
+        }
+      ],
+      "output_items": [
+        {
+          "id": "element_fe",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase3b",
+        "device_11",
+        "runtime_service_only"
+      ],
+      "required_conditions": [],
+      "required_stage": 2
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_large_industrial_reactor",
+      "device_type": "batch_reaction",
+      "id": "barium_sulfate_batch_precipitation",
+      "input_items": [
+        {
+          "id": "compound_barium_process_solution",
+          "n": 5
+        },
+        {
+          "id": "compound_sulfate_process_solution",
+          "n": 5
+        }
+      ],
+      "output_items": [
+        {
+          "id": "compound_barium_sulfate_reaction_slurry",
+          "n": 5
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase3b",
+        "device_11",
+        "barium_sulfate",
+        "runtime_service_only"
+      ],
+      "required_conditions": [],
+      "required_stage": 2
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_large_industrial_reactor",
+      "device_type": "batch_reaction",
+      "id": "recipe_phase4b_high_strength_conditioning",
+      "input_items": [
+        {
+          "id": "compound_conditioned_high_strength_mineral",
+          "n": 1
+        }
+      ],
+      "output_items": [
+        {
+          "id": "material_high_strength",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase4b",
+        "device_11",
+        "runtime_service_only"
+      ],
+      "required_conditions": [],
+      "required_stage": 3
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_chemical_workbench",
+      "device_type": "assembly",
+      "id": "recipe_phase4a_absorption_tower_kit",
+      "input_items": [
+        {
+          "id": "material_iron",
+          "n": 4
+        },
+        {
+          "id": "material_glass",
+          "n": 2
+        },
+        {
+          "id": "material_refractory",
+          "n": 2
+        }
+      ],
+      "output_items": [
+        {
+          "id": "item_industrial_absorption_tower_kit",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase4a",
+        "device_13"
+      ],
+      "required_conditions": [
+        {
+          "id": "required_stage",
+          "value": "3"
+        }
+      ],
+      "required_stage": 3
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_industrial_absorption_tower",
+      "device_type": "absorb",
+      "id": "recipe_phase4a_absorb_gas",
+      "input_items": [
+        {
+          "id": "compound_polluted_gas",
+          "n": 1
+        },
+        {
+          "id": "resource_alkaline_solution",
+          "n": 1
+        }
+      ],
+      "output_items": [
+        {
+          "id": "compound_treated_gas",
+          "n": 1
+        },
+        {
+          "id": "compound_loaded_absorption_solution",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase4a",
+        "device_13",
+        "runtime_service_only"
+      ],
+      "required_conditions": [],
+      "required_stage": 3
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_chemical_workbench",
+      "device_type": "assembly",
+      "id": "recipe_phase4a_crystallizer_kit",
+      "input_items": [
+        {
+          "id": "material_iron",
+          "n": 5
+        },
+        {
+          "id": "material_glass",
+          "n": 3
+        },
+        {
+          "id": "material_refractory",
+          "n": 3
+        }
+      ],
+      "output_items": [
+        {
+          "id": "item_industrial_crystallizer_kit",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase4a",
+        "device_14"
+      ],
+      "required_conditions": [
+        {
+          "id": "required_stage",
+          "value": "3"
+        }
+      ],
+      "required_stage": 3
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_industrial_crystallizer",
+      "device_type": "crystallize",
+      "id": "recipe_phase4a_industrial_crystallize",
+      "input_items": [
+        {
+          "id": "compound_concentrated_salt_solution",
+          "n": 1
+        }
+      ],
+      "output_items": [
+        {
+          "id": "resource_high_purity_crystal",
+          "n": 1
+        },
+        {
+          "id": "compound_mother_liquor",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase4a",
+        "device_14",
+        "runtime_service_only"
+      ],
+      "required_conditions": [],
+      "required_stage": 3
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_chemical_workbench",
+      "device_type": "assembly",
+      "id": "recipe_phase4b_high_pressure_reactor_kit",
+      "input_items": [
+        {
+          "id": "material_copper",
+          "n": 6
+        },
+        {
+          "id": "material_high_strength",
+          "n": 2
+        },
+        {
+          "id": "material_refractory",
+          "n": 4
+        },
+        {
+          "id": "resource_high_purity_crystal",
+          "n": 4
+        }
+      ],
+      "output_items": [
+        {
+          "id": "item_high_pressure_catalytic_reactor_kit",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase4b",
+        "device_12"
+      ],
+      "required_conditions": [
+        {
+          "id": "required_stage",
+          "value": "3"
+        }
+      ],
+      "required_stage": 3
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_high_pressure_catalytic_reactor",
+      "device_type": "catalytic_reaction",
+      "id": "recipe_phase4b_high_pressure_nh3",
+      "input_items": [
+        {
+          "id": "compound_n2",
+          "n": 1
+        },
+        {
+          "id": "compound_h2",
+          "n": 3
+        },
+        {
+          "id": "material_iron",
+          "n": 1
+        }
+      ],
+      "output_items": [
+        {
+          "id": "compound_nh3",
+          "n": 2
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase4b",
+        "device_12",
+        "runtime_service_only",
+        "legacy_compatibility",
+        "not_formal_reaction"
+      ],
+      "required_conditions": [
+        {
+          "id": "pressure",
+          "value": "PRESSURE_HIGH"
+        },
+        {
+          "id": "catalyst",
+          "value": "material_iron"
+        }
+      ],
+      "required_stage": 3
+    },
+    {
+      "alternate_input_sets": [],
+      "device_id": "device_chemical_workbench",
+      "device_type": "assembly",
+      "id": "recipe_phase4b_liquid_tank_kit",
+      "input_items": [
+        {
+          "id": "material_iron",
+          "n": 8
+        },
+        {
+          "id": "material_glass",
+          "n": 3
+        },
+        {
+          "id": "material_refractory",
+          "n": 4
+        },
+        {
+          "id": "material_high_strength",
+          "n": 2
+        }
+      ],
+      "output_items": [
+        {
+          "id": "item_large_industrial_liquid_tank_kit",
+          "n": 1
+        }
+      ],
+      "process_inputs": [],
+      "processing_time": 0.0,
+      "progression_tags": [
+        "phase4b",
+        "device_15"
+      ],
+      "required_conditions": [
+        {
+          "id": "required_stage",
+          "value": "3"
+        }
+      ],
+      "required_stage": 3
+    }
+  ]
+}

@@ -1,0 +1,603 @@
+{
+  "devices": [
+    {
+      "crafting": {
+        "crafting_station": "HAND_ASSEMBLY",
+        "inputs": [
+          {
+            "id": "material_iron",
+            "n": 6
+          },
+          {
+            "id": "material_copper",
+            "n": 2
+          },
+          {
+            "id": "material_glass",
+            "n": 2
+          }
+        ],
+        "unlock_condition_id": "stage0_started",
+        "unlock_lab_stage": 0,
+        "unlock_region": "dead_city_ruins"
+      },
+      "display_name": "基础化学工程工作台",
+      "footprint_height": 2,
+      "footprint_width": 3,
+      "id": "device_chemical_workbench",
+      "input_slots": 0,
+      "output_slots": 0,
+      "processing_scale": "",
+      "processing_type": "assembly",
+      "purpose": "基础制造与装配",
+      "recipe_ids": [],
+      "resource_status": "READY",
+      "slot": 1,
+      "stage": 0,
+      "storage_capacity": 0,
+      "world_sprite": "res://assets/devices/early_game/chemical_workbench.png"
+    },
+    {
+      "crafting": {
+        "crafting_station": "WORKBENCH",
+        "inputs": [
+          {
+            "id": "material_iron",
+            "n": 6
+          },
+          {
+            "id": "material_refractory",
+            "n": 4
+          },
+          {
+            "id": "material_carbon",
+            "n": 2
+          }
+        ],
+        "unlock_condition_id": "device_chemical_workbench_built",
+        "unlock_lab_stage": 0,
+        "unlock_region": "dead_city_ruins"
+      },
+      "display_name": "小型化学冶炼熔炉",
+      "footprint_height": 1,
+      "footprint_width": 1,
+      "id": "device_small_chemical_furnace",
+      "input_slots": 1,
+      "output_slots": 2,
+      "processing_scale": "",
+      "processing_type": "heat",
+      "purpose": "加热、煅烧、热分解和基础冶炼",
+      "recipe_ids": [
+        "recipe_phase3a_thermal_carbonate",
+        "recipe_phase4b_core_high_strength_preprocess",
+        "recipe_phase4b_silver_bearing_preprocess"
+      ],
+      "resource_status": "READY",
+      "slot": 2,
+      "stage": 0,
+      "storage_capacity": 0,
+      "world_sprite": "res://assets/devices/formal_source/device_small_chemical_furnace.png"
+    },
+    {
+      "crafting": {
+        "crafting_station": "WORKBENCH",
+        "inputs": [
+          {
+            "id": "material_copper",
+            "n": 6
+          },
+          {
+            "id": "material_iron",
+            "n": 4
+          },
+          {
+            "id": "material_glass",
+            "n": 2
+          }
+        ],
+        "unlock_condition_id": "device_chemical_workbench_built",
+        "unlock_lab_stage": 0,
+        "unlock_region": "dead_city_ruins"
+      },
+      "display_name": "腕戴式合成仪充能台",
+      "footprint_height": 1,
+      "footprint_width": 1,
+      "id": "device_synthesis_charging_station",
+      "input_slots": 0,
+      "output_slots": 0,
+      "processing_scale": "",
+      "processing_type": "charge",
+      "purpose": "合成仪锁定与充能",
+      "recipe_ids": [],
+      "resource_status": "READY",
+      "slot": 3,
+      "stage": 0,
+      "storage_capacity": 0,
+      "world_sprite": "res://assets/devices/formal_source/device_synthesis_charging_station.png"
+    },
+    {
+      "crafting": {
+        "crafting_station": "WORKBENCH",
+        "inputs": [
+          {
+            "id": "material_glass",
+            "n": 6
+          },
+          {
+            "id": "material_iron",
+            "n": 4
+          },
+          {
+            "id": "material_copper",
+            "n": 2
+          }
+        ],
+        "unlock_condition_id": "device_chemical_workbench_built",
+        "unlock_lab_stage": 0,
+        "unlock_region": "rust_jungle"
+      },
+      "display_name": "基础化学反应台",
+      "footprint_height": 3,
+      "footprint_width": 4,
+      "id": "device_basic_reaction_bench",
+      "input_slots": 0,
+      "output_slots": 0,
+      "processing_scale": "",
+      "processing_type": "reaction",
+      "purpose": "基础固液、液液、酸碱和沉淀反应",
+      "recipe_ids": [],
+      "resource_status": "READY",
+      "slot": 4,
+      "stage": 0,
+      "storage_capacity": 0,
+      "world_sprite": "res://assets/devices/early_game/basic_reaction_bench.png"
+    },
+    {
+      "crafting": {
+        "crafting_station": "WORKBENCH",
+        "inputs": [
+          {
+            "id": "material_copper",
+            "n": 5
+          },
+          {
+            "id": "material_glass",
+            "n": 5
+          },
+          {
+            "id": "material_iron",
+            "n": 2
+          }
+        ],
+        "unlock_condition_id": "crystal_tundra_reached",
+        "unlock_lab_stage": 1,
+        "unlock_region": "crystal_tundra"
+      },
+      "display_name": "多功能化学检测仪",
+      "footprint_height": 1,
+      "footprint_width": 1,
+      "id": "device_multi_chemical_analyzer",
+      "input_slots": 1,
+      "output_slots": 0,
+      "processing_scale": "",
+      "processing_type": "analyze",
+      "purpose": "pH、气体和样品成分分析",
+      "recipe_ids": [
+        "recipe_phase2_detect"
+      ],
+      "resource_status": "READY",
+      "slot": 5,
+      "stage": 1,
+      "storage_capacity": 0,
+      "world_sprite": "res://assets/devices/formal_source/device_multi_chemical_analyzer.png"
+    },
+    {
+      "crafting": {
+        "crafting_station": "WORKBENCH",
+        "inputs": [
+          {
+            "id": "material_glass",
+            "n": 8
+          },
+          {
+            "id": "material_copper",
+            "n": 4
+          },
+          {
+            "id": "material_iron",
+            "n": 4
+          },
+          {
+            "id": "material_refractory",
+            "n": 3
+          }
+        ],
+        "unlock_condition_id": "salt_marsh_reached",
+        "unlock_lab_stage": 1,
+        "unlock_region": "salt_marsh"
+      },
+      "display_name": "工业实验室蒸馏器",
+      "footprint_height": 1,
+      "footprint_width": 1,
+      "id": "device_industrial_distiller",
+      "input_slots": 1,
+      "output_slots": 2,
+      "processing_scale": "",
+      "processing_type": "distill",
+      "purpose": "蒸汽输送、冷却和液体收集",
+      "recipe_ids": [
+        "recipe_phase2_distill"
+      ],
+      "resource_status": "READY",
+      "slot": 6,
+      "stage": 1,
+      "storage_capacity": 0,
+      "world_sprite": "res://assets/devices/formal_source/device_industrial_distiller.png"
+    },
+    {
+      "crafting": {
+        "crafting_station": "WORKBENCH",
+        "inputs": [
+          {
+            "id": "material_copper",
+            "n": 8
+          },
+          {
+            "id": "material_iron",
+            "n": 5
+          },
+          {
+            "id": "material_glass",
+            "n": 8
+          }
+        ],
+        "unlock_condition_id": "magnetic_plateau_reached",
+        "unlock_lab_stage": 2,
+        "unlock_region": "magnetic_plateau"
+      },
+      "display_name": "工业电解槽",
+      "footprint_height": 1,
+      "footprint_width": 1,
+      "id": "device_industrial_electrolysis_cell",
+      "input_slots": 1,
+      "output_slots": 2,
+      "processing_scale": "",
+      "processing_type": "electrolyze",
+      "purpose": "电极反应与气体生成",
+      "recipe_ids": [
+        "recipe_phase3b_electrolysis_cell_kit",
+        "recipe_phase3b_electrolyze",
+        "recipe_phase4b_silver_catalytic_refine"
+      ],
+      "resource_status": "READY",
+      "slot": 7,
+      "stage": 2,
+      "storage_capacity": 0,
+      "world_sprite": "res://assets/devices/formal_source/device_industrial_electrolysis_cell.png"
+    },
+    {
+      "crafting": {
+        "crafting_station": "WORKBENCH",
+        "inputs": [
+          {
+            "id": "material_copper",
+            "n": 7
+          },
+          {
+            "id": "material_iron",
+            "n": 4
+          },
+          {
+            "id": "material_glass",
+            "n": 3
+          }
+        ],
+        "unlock_condition_id": "ember_rift_reached",
+        "unlock_lab_stage": 2,
+        "unlock_region": "ember_rift"
+      },
+      "display_name": "独立工业冷凝器",
+      "footprint_height": 1,
+      "footprint_width": 1,
+      "id": "device_industrial_condenser",
+      "input_slots": 1,
+      "output_slots": 1,
+      "processing_scale": "",
+      "processing_type": "condense",
+      "purpose": "气体冷却与液化",
+      "recipe_ids": [
+        "recipe_phase3a_condense_vapor"
+      ],
+      "resource_status": "READY",
+      "slot": 8,
+      "stage": 1,
+      "storage_capacity": 0,
+      "world_sprite": "res://assets/devices/formal_source/device_industrial_condenser.png"
+    },
+    {
+      "crafting": {
+        "crafting_station": "WORKBENCH",
+        "inputs": [
+          {
+            "id": "material_iron",
+            "n": 6
+          },
+          {
+            "id": "material_glass",
+            "n": 4
+          },
+          {
+            "id": "material_refractory",
+            "n": 4
+          }
+        ],
+        "unlock_condition_id": "fossil_strata_reached",
+        "unlock_lab_stage": 1,
+        "unlock_region": "fossil_strata"
+      },
+      "display_name": "工业固液分离过滤器",
+      "footprint_height": 1,
+      "footprint_width": 1,
+      "id": "device_industrial_solid_liquid_filter",
+      "input_slots": 1,
+      "output_slots": 2,
+      "processing_scale": "",
+      "processing_type": "separation",
+      "purpose": "工业固液分离",
+      "recipe_ids": [
+        "recipe_phase2_filter"
+      ],
+      "resource_status": "READY",
+      "slot": 9,
+      "stage": 1,
+      "storage_capacity": 0,
+      "world_sprite": "res://assets/devices/formal_source/device_industrial_solid_liquid_filter.png"
+    },
+    {
+      "crafting": {
+        "crafting_station": "WORKBENCH",
+        "inputs": [
+          {
+            "id": "material_iron",
+            "n": 15
+          },
+          {
+            "id": "material_copper",
+            "n": 3
+          }
+        ],
+        "unlock_condition_id": "fluorescent_grotto_reached",
+        "unlock_lab_stage": 2,
+        "unlock_region": "fluorescent_grotto"
+      },
+      "display_name": "高压气体储罐",
+      "footprint_height": 1,
+      "footprint_width": 1,
+      "id": "device_high_pressure_gas_tank",
+      "input_slots": 1,
+      "output_slots": 1,
+      "processing_scale": "",
+      "processing_type": "store_gas",
+      "purpose": "高压气体密闭储存",
+      "recipe_ids": [
+        "recipe_phase3a_store_gas"
+      ],
+      "resource_status": "READY",
+      "slot": 10,
+      "stage": 2,
+      "storage_capacity": 0,
+      "world_sprite": "res://assets/devices/formal_source/device_high_pressure_gas_tank.png"
+    },
+    {
+      "crafting": {
+        "crafting_station": "WORKBENCH",
+        "inputs": [
+          {
+            "id": "material_iron",
+            "n": 12
+          },
+          {
+            "id": "material_copper",
+            "n": 6
+          },
+          {
+            "id": "material_glass",
+            "n": 8
+          },
+          {
+            "id": "material_refractory",
+            "n": 6
+          }
+        ],
+        "unlock_condition_id": "abandoned_mine_reached",
+        "unlock_lab_stage": 2,
+        "unlock_region": "abandoned_mine"
+      },
+      "display_name": "大型工业反应釜",
+      "footprint_height": 1,
+      "footprint_width": 1,
+      "id": "device_large_industrial_reactor",
+      "input_slots": 3,
+      "output_slots": 3,
+      "processing_scale": "INDUSTRIAL_BATCH",
+      "processing_type": "batch_reaction",
+      "purpose": "大型工业批量反应",
+      "recipe_ids": [
+        "recipe_phase3b_reactor_kit",
+        "recipe_phase3b_reactor_batch",
+        "recipe_phase4b_high_strength_conditioning"
+      ],
+      "resource_status": "READY",
+      "slot": 11,
+      "stage": 2,
+      "storage_capacity": 0,
+      "world_sprite": "res://assets/devices/formal_source/device_large_industrial_reactor.png"
+    },
+    {
+      "crafting": {
+        "crafting_station": "WORKBENCH",
+        "inputs": [
+          {
+            "id": "material_copper",
+            "n": 6
+          },
+          {
+            "id": "material_high_strength",
+            "n": 2
+          },
+          {
+            "id": "material_refractory",
+            "n": 4
+          },
+          {
+            "id": "resource_high_purity_crystal",
+            "n": 4
+          }
+        ],
+        "unlock_condition_id": "core_shell_reached",
+        "unlock_lab_stage": 3,
+        "unlock_region": "core_shell"
+      },
+      "display_name": "高级高压催化反应器",
+      "footprint_height": 4,
+      "footprint_width": 4,
+      "id": "device_high_pressure_catalytic_reactor",
+      "input_slots": 3,
+      "output_slots": 1,
+      "processing_scale": "",
+      "processing_type": "catalytic_reaction",
+      "purpose": "高压、高温催化反应",
+      "recipe_ids": [
+        "recipe_phase4b_high_pressure_reactor_kit",
+        "recipe_phase4b_high_pressure_nh3",
+        "recipe_phase4b_device12_co2_h2_conversion"
+      ],
+      "resource_status": "READY",
+      "slot": 12,
+      "stage": 3,
+      "storage_capacity": 0,
+      "world_sprite": "res://assets/devices/formal_source/device_high_pressure_catalytic_reactor.png"
+    },
+    {
+      "crafting": {
+        "crafting_station": "WORKBENCH",
+        "inputs": [
+          {
+            "id": "material_iron",
+            "n": 4
+          },
+          {
+            "id": "material_glass",
+            "n": 2
+          },
+          {
+            "id": "material_refractory",
+            "n": 2
+          }
+        ],
+        "unlock_condition_id": "radiation_belt_reached",
+        "unlock_lab_stage": 3,
+        "unlock_region": "radiation_belt"
+      },
+      "display_name": "工业气体吸收塔",
+      "footprint_height": 4,
+      "footprint_width": 3,
+      "id": "device_industrial_absorption_tower",
+      "input_slots": 2,
+      "output_slots": 2,
+      "processing_scale": "",
+      "processing_type": "absorb",
+      "purpose": "气体吸收与净化",
+      "recipe_ids": [
+        "recipe_phase4a_absorption_tower_kit",
+        "recipe_phase4a_absorb_gas"
+      ],
+      "resource_status": "READY",
+      "slot": 13,
+      "stage": 3,
+      "storage_capacity": 0,
+      "world_sprite": "res://assets/devices/formal_source/device_industrial_absorption_tower.png"
+    },
+    {
+      "crafting": {
+        "crafting_station": "WORKBENCH",
+        "inputs": [
+          {
+            "id": "material_iron",
+            "n": 5
+          },
+          {
+            "id": "material_glass",
+            "n": 3
+          },
+          {
+            "id": "material_refractory",
+            "n": 3
+          }
+        ],
+        "unlock_condition_id": "industrial_crystallizer_need_discovered",
+        "unlock_lab_stage": 3,
+        "unlock_region": "mantle_flows"
+      },
+      "display_name": "工业结晶器",
+      "footprint_height": 3,
+      "footprint_width": 4,
+      "id": "device_industrial_crystallizer",
+      "input_slots": 1,
+      "output_slots": 2,
+      "processing_scale": "",
+      "processing_type": "crystallize",
+      "purpose": "溶液降温或浓缩结晶",
+      "recipe_ids": [
+        "recipe_phase4a_crystallizer_kit",
+        "recipe_phase4a_industrial_crystallize"
+      ],
+      "resource_status": "READY",
+      "slot": 14,
+      "stage": 3,
+      "storage_capacity": 0,
+      "world_sprite": "res://assets/devices/formal_source/device_industrial_crystallizer.png"
+    },
+    {
+      "crafting": {
+        "crafting_station": "WORKBENCH",
+        "inputs": [
+          {
+            "id": "material_iron",
+            "n": 8
+          },
+          {
+            "id": "material_glass",
+            "n": 3
+          },
+          {
+            "id": "material_refractory",
+            "n": 4
+          },
+          {
+            "id": "material_high_strength",
+            "n": 2
+          }
+        ],
+        "unlock_condition_id": "planetary_core_reached",
+        "unlock_lab_stage": 3,
+        "unlock_region": "planetary_core"
+      },
+      "display_name": "大型工业液体储罐",
+      "footprint_height": 4,
+      "footprint_width": 4,
+      "id": "device_large_industrial_liquid_tank",
+      "input_slots": 1,
+      "output_slots": 1,
+      "processing_scale": "",
+      "processing_type": "store_liquid",
+      "purpose": "水、酸液、碱液、盐水和工业溶液储存",
+      "recipe_ids": [],
+      "resource_status": "READY",
+      "slot": 15,
+      "stage": 3,
+      "storage_capacity": 20,
+      "world_sprite": "res://assets/devices/formal_source/device_large_industrial_liquid_tank.png"
+    }
+  ]
+}

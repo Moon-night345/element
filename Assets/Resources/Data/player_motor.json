@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "pixels_per_unit": 32,
+  "ability_id": "ability_h2_hover",
+  "reaction_id": "reaction_h2_synthesis",
+  "duration_seconds": 1.2,
+  "gravity_multiplier": 0.25,
+  "energy_cost_per_second": 15.0,
+  "ground_speed": 220.0,
+  "jump_velocity": 520.0,
+  "gravity": 1500.0,
+  "terminal_velocity": 900.0,
+  "source_hashes": [
+    {
+      "path": "content/prologue/ability_h2_hover.tres",
+      "sha256": "4e8d166d02cdf22c97e1d6880dd28ce069fb018f246a5d222822da521592b09d"
+    },
+    {
+      "path": "content/prologue/reaction_h2_synthesis.tres",
+      "sha256": "49a69bdad8520e2ab9c51a0852bf6ab1cea44e15be89d7d17a444c3ba7c137da"
+    },
+    {
+      "path": "src/player/player_motor.gd",
+      "sha256": "b239a3764fb54e4f1b42e73ce02c7531948c229824cc4549e0dbad3ea1dcdb87"
+    }
+  ]
+}

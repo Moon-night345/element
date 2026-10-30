@@ -1,0 +1,23 @@
+{
+  "counts": {
+    "formal_devices": 15,
+    "localization_entries": 225,
+    "materials": 54,
+    "processing_recipes": 33,
+    "reaction_content_units": 40,
+    "reaction_specs": 40,
+    "regions": 17
+  },
+  "schema_version": 2,
+  "source_commit": "cd9626be38cb2d007e2e07c29e19a0e5b8b532f3",
+  "source_commit_time": "2026-09-11T13:38:04+08:00",
+  "source_files": [
+    "src/world/world_content_catalog.gd",
+    "src/world/reaction_content_catalog.gd",
+    "src/progression/formal_device_catalog.gd",
+    "src/progression/phase2_recipe_catalog.gd",
+    "src/chemistry/phase2_chemistry_service.gd",
+    "localization/zh_CN.csv",
+    "src/ui/gameplay/world_systems_panel.gd"
+  ]
+}

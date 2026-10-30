@@ -1,0 +1,164 @@
+{
+  "memories": [
+    {
+      "body_key": "dialogue.memory.memory_01.body",
+      "fragments": [
+        "dialogue.memory.memory_01.fragment_1",
+        "dialogue.memory.memory_01.fragment_2"
+      ],
+      "id": "memory_01",
+      "region": "dead_city_ruins",
+      "title_key": "content.memory.memory_01.title"
+    },
+    {
+      "body_key": "dialogue.memory.memory_02.body",
+      "fragments": [
+        "dialogue.memory.memory_02.fragment_1",
+        "dialogue.memory.memory_02.fragment_2"
+      ],
+      "id": "memory_02",
+      "region": "rust_jungle",
+      "title_key": "content.memory.memory_02.title"
+    },
+    {
+      "body_key": "dialogue.memory.memory_03.body",
+      "fragments": [
+        "dialogue.memory.memory_03.fragment_1",
+        "dialogue.memory.memory_03.fragment_2"
+      ],
+      "id": "memory_03",
+      "region": "crystal_tundra",
+      "title_key": "content.memory.memory_03.title"
+    },
+    {
+      "body_key": "dialogue.memory.memory_04.body",
+      "fragments": [
+        "dialogue.memory.memory_04.fragment_1",
+        "dialogue.memory.memory_04.fragment_2"
+      ],
+      "id": "memory_04",
+      "region": "salt_marsh",
+      "title_key": "content.memory.memory_04.title"
+    },
+    {
+      "body_key": "dialogue.memory.memory_05.body",
+      "fragments": [
+        "dialogue.memory.memory_05.fragment_1",
+        "dialogue.memory.memory_05.fragment_2"
+      ],
+      "id": "memory_05",
+      "region": "ember_rift",
+      "title_key": "content.memory.memory_05.title"
+    },
+    {
+      "body_key": "dialogue.memory.memory_06.body",
+      "fragments": [
+        "dialogue.memory.memory_06.fragment_1",
+        "dialogue.memory.memory_06.fragment_2"
+      ],
+      "id": "memory_06",
+      "region": "sand_desert",
+      "title_key": "content.memory.memory_06.title"
+    },
+    {
+      "body_key": "dialogue.memory.memory_07.body",
+      "fragments": [
+        "dialogue.memory.memory_07.fragment_1",
+        "dialogue.memory.memory_07.fragment_2"
+      ],
+      "id": "memory_07",
+      "region": "magnetic_plateau",
+      "title_key": "content.memory.memory_07.title"
+    },
+    {
+      "body_key": "dialogue.memory.memory_08.body",
+      "fragments": [
+        "dialogue.memory.memory_08.fragment_1",
+        "dialogue.memory.memory_08.fragment_2"
+      ],
+      "id": "memory_08",
+      "region": "fossil_strata",
+      "title_key": "content.memory.memory_08.title"
+    },
+    {
+      "body_key": "dialogue.memory.memory_09.body",
+      "fragments": [
+        "dialogue.memory.memory_09.fragment_1",
+        "dialogue.memory.memory_09.fragment_2"
+      ],
+      "id": "memory_09",
+      "region": "topsoil_caves",
+      "title_key": "content.memory.memory_09.title"
+    },
+    {
+      "body_key": "dialogue.memory.memory_10.body",
+      "fragments": [
+        "dialogue.memory.memory_10.fragment_1",
+        "dialogue.memory.memory_10.fragment_2"
+      ],
+      "id": "memory_10",
+      "region": "fluorescent_grotto",
+      "title_key": "content.memory.memory_10.title"
+    },
+    {
+      "body_key": "dialogue.memory.memory_11.body",
+      "fragments": [
+        "dialogue.memory.memory_11.fragment_1",
+        "dialogue.memory.memory_11.fragment_2"
+      ],
+      "id": "memory_11",
+      "region": "geode_abyss",
+      "title_key": "content.memory.memory_11.title"
+    },
+    {
+      "body_key": "dialogue.memory.memory_12.body",
+      "fragments": [
+        "dialogue.memory.memory_12.fragment_1",
+        "dialogue.memory.memory_12.fragment_2"
+      ],
+      "id": "memory_12",
+      "region": "abandoned_mine",
+      "title_key": "content.memory.memory_12.title"
+    },
+    {
+      "body_key": "dialogue.memory.memory_13.body",
+      "fragments": [
+        "dialogue.memory.memory_13.fragment_1",
+        "dialogue.memory.memory_13.fragment_2"
+      ],
+      "id": "memory_13",
+      "region": "radiation_belt",
+      "title_key": "content.memory.memory_13.title"
+    },
+    {
+      "body_key": "dialogue.memory.memory_14.body",
+      "fragments": [
+        "dialogue.memory.memory_14.fragment_1",
+        "dialogue.memory.memory_14.fragment_2"
+      ],
+      "id": "memory_14",
+      "region": "mantle_flows",
+      "title_key": "content.memory.memory_14.title"
+    },
+    {
+      "body_key": "dialogue.memory.memory_15.body",
+      "fragments": [
+        "dialogue.memory.memory_15.fragment_1",
+        "dialogue.memory.memory_15.fragment_2"
+      ],
+      "id": "memory_15",
+      "region": "core_shell",
+      "title_key": "content.memory.memory_15.title"
+    },
+    {
+      "body_key": "dialogue.memory.memory_16.body",
+      "fragments": [
+        "dialogue.memory.memory_16.fragment_1",
+        "dialogue.memory.memory_16.fragment_2"
+      ],
+      "id": "memory_16",
+      "region": "planetary_core",
+      "title_key": "content.memory.memory_16.title"
+    }
+  ]
+}

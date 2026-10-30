@@ -1,0 +1,904 @@
+{
+  "entries": [
+    {
+      "key": "content.ability.h2_hover.name",
+      "text": "H₂ 滞空"
+    },
+    {
+      "key": "content.codex.element_h.body",
+      "text": "最轻的元素。两个氢原子可以彼此成键，形成 H₂。"
+    },
+    {
+      "key": "content.codex.element_h.name",
+      "text": "氢"
+    },
+    {
+      "key": "content.codex.language_anchor.name",
+      "text": "锚定"
+    },
+    {
+      "key": "content.codex.language_assault.name",
+      "text": "攻坚"
+    },
+    {
+      "key": "content.codex.language_balance.name",
+      "text": "调和"
+    },
+    {
+      "key": "content.codex.language_burn.name",
+      "text": "焚尽"
+    },
+    {
+      "key": "content.codex.language_cleanse.name",
+      "text": "净化"
+    },
+    {
+      "key": "content.codex.language_dissection.name",
+      "text": "拆解"
+    },
+    {
+      "key": "content.codex.language_fade.name",
+      "text": "褪色"
+    },
+    {
+      "key": "content.codex.language_ferment.name",
+      "text": "酝酿"
+    },
+    {
+      "key": "content.codex.language_forge.name",
+      "text": "锻造"
+    },
+    {
+      "key": "content.codex.language_fuel.name",
+      "text": "燃料"
+    },
+    {
+      "key": "content.codex.language_reveal.name",
+      "text": "揭示"
+    },
+    {
+      "key": "content.codex.language_rise_freedom.body",
+      "text": "化学结构也是语言：H₂ 在此表达上升与自由，并授权短暂滞空。"
+    },
+    {
+      "key": "content.codex.language_rise_freedom.name",
+      "text": "上升·自由"
+    },
+    {
+      "key": "content.codex.language_store.name",
+      "text": "封存"
+    },
+    {
+      "key": "content.codex.language_water.name",
+      "text": "识水"
+    },
+    {
+      "key": "content.codex.language_witness.name",
+      "text": "见证"
+    },
+    {
+      "key": "content.codex.reaction_h2.body",
+      "text": "两个氢原子结合为一个氢分子，并释放“上升·自由”的语言意义。"
+    },
+    {
+      "key": "content.codex.reaction_h2.name",
+      "text": "2H → H₂"
+    },
+    {
+      "key": "content.compound.h2.name",
+      "text": "氢气"
+    },
+    {
+      "key": "content.element.h.name",
+      "text": "氢"
+    },
+    {
+      "key": "content.fragment.guide.name",
+      "text": "引路人"
+    },
+    {
+      "key": "content.item.damaged_geological_sampling_pickaxe.description",
+      "text": "远古实验室使用的地质采样工具。驱动组件已经损坏，目前无法正常进行采掘。"
+    },
+    {
+      "key": "content.item.damaged_geological_sampling_pickaxe.name",
+      "text": "损坏的地质采样镐"
+    },
+    {
+      "key": "content.item.emergency_power_cell.description",
+      "text": "仍保存少量电力的实验室应急能源单元。"
+    },
+    {
+      "key": "content.item.emergency_power_cell.name",
+      "text": "能源单元"
+    },
+    {
+      "key": "content.item.scrap_metal_parts.description",
+      "text": "从实验室废弃机器中拆出的可用传动零件。"
+    },
+    {
+      "key": "content.item.scrap_metal_parts.name",
+      "text": "废旧金属零件"
+    },
+    {
+      "key": "content.reaction.h2_synthesis.name",
+      "text": "氢气合成"
+    },
+    {
+      "key": "content.source.hydrogen_leak.name",
+      "text": "氢泄漏"
+    },
+    {
+      "key": "content.tool.geological_sampling_pickaxe.description",
+      "text": "修复后的远古地质采样工具，可用于岩层取样与基础矿物采集。"
+    },
+    {
+      "key": "content.tool.geological_sampling_pickaxe.name",
+      "text": "地质采样镐"
+    },
+    {
+      "key": "content.tool.improved_iron_pickaxe.description",
+      "text": "以铁元素强化的采掘工具，可应对更坚硬的岩层。"
+    },
+    {
+      "key": "content.tool.improved_iron_pickaxe.name",
+      "text": "改良铁镐"
+    },
+    {
+      "key": "content.tool.reinforced_composite_pickaxe.description",
+      "text": "由铁和铜复合强化的采掘工具，适合深入高强度矿层。"
+    },
+    {
+      "key": "content.tool.reinforced_composite_pickaxe.name",
+      "text": "强化复合金属镐"
+    },
+    {
+      "key": "dialogue.guide.boot_signal",
+      "text": "……信号？不。这不是巡检程序。"
+    },
+    {
+      "key": "dialogue.guide.damaged_pickaxe",
+      "text": "地质采样器……你以前总把它丢在实验台旁边。"
+    },
+    {
+      "key": "dialogue.guide.freedom_restored",
+      "text": "上升。自由。原来我没有忘记。"
+    },
+    {
+      "key": "dialogue.guide.hydrogen_hint",
+      "text": "两个最轻的符号。让它们彼此回答。"
+    },
+    {
+      "key": "dialogue.guide.pickaxe_repaired",
+      "text": "还能用。至少这颗星球还没把所有东西都吃掉。"
+    },
+    {
+      "key": "dialogue.guide.recognition",
+      "text": "博士……你终于醒了。"
+    },
+    {
+      "key": "dialogue.guide.rise_riddle",
+      "text": "这里太沉了。我记得你教过我一种……向上的词。"
+    },
+    {
+      "key": "dialogue.guide.surface_open",
+      "text": "去地表吧，博士。也许世界还没有彻底停止呼吸。"
+    },
+    {
+      "key": "dialogue.guide.synthesis_heard",
+      "text": "我听见了。不是声音，是你留下的结构。"
+    },
+    {
+      "key": "environment.abandoned_mine.name",
+      "text": "废弃矿道层"
+    },
+    {
+      "key": "environment.core_shell.name",
+      "text": "核心外壳"
+    },
+    {
+      "key": "environment.crystal_tundra.name",
+      "text": "晶晶冻原"
+    },
+    {
+      "key": "environment.dead_city_ruins.name",
+      "text": "死城废墟"
+    },
+    {
+      "key": "environment.ember_rift.name",
+      "text": "余烬裂谷"
+    },
+    {
+      "key": "environment.fluorescent_grotto.name",
+      "text": "荧光菌窟"
+    },
+    {
+      "key": "environment.fossil_strata.name",
+      "text": "化石岩层"
+    },
+    {
+      "key": "environment.geode_abyss.name",
+      "text": "晶洞深渊"
+    },
+    {
+      "key": "environment.magnetic_plateau.name",
+      "text": "磁暴高原"
+    },
+    {
+      "key": "environment.mantle_flows.name",
+      "text": "地幔熔流"
+    },
+    {
+      "key": "environment.planetary_core.name",
+      "text": "星球核能核心"
+    },
+    {
+      "key": "environment.prologue_lab.name",
+      "text": "废墟实验室"
+    },
+    {
+      "key": "environment.radiation_belt.name",
+      "text": "辐射岩带"
+    },
+    {
+      "key": "environment.rust_jungle.name",
+      "text": "锈蚀丛林"
+    },
+    {
+      "key": "environment.salt_marsh.name",
+      "text": "盐碱滩涂"
+    },
+    {
+      "key": "environment.sand_desert.name",
+      "text": "风沙荒漠"
+    },
+    {
+      "key": "environment.topsoil_caves.name",
+      "text": "表土洞穴层"
+    },
+    {
+      "key": "hud.interaction_prompt",
+      "text": "交互"
+    },
+    {
+      "key": "hud.prologue_objective",
+      "text": "序章目标"
+    },
+    {
+      "key": "hud.prompt.break",
+      "text": "敲破封存罐"
+    },
+    {
+      "key": "hud.prompt.capture",
+      "text": "截取氢"
+    },
+    {
+      "key": "hud.prompt.collect",
+      "text": "采集样本"
+    },
+    {
+      "key": "hud.prompt.demonstrate",
+      "text": "演示 H₂"
+    },
+    {
+      "key": "hud.prompt.interact",
+      "text": "交互"
+    },
+    {
+      "key": "hud.prompt.mine",
+      "text": "挖掘矿脉"
+    },
+    {
+      "key": "hud.prompt.open_tool_cabinet",
+      "text": "打开地质采样工具柜"
+    },
+    {
+      "key": "hud.prompt.repair_pickaxe",
+      "text": "在实验台维修地质采样镐"
+    },
+    {
+      "key": "hud.prompt.salvage_repair_supply",
+      "text": "搜集可用的维修材料"
+    },
+    {
+      "key": "hud.survival",
+      "text": "生存状态"
+    },
+    {
+      "key": "hud.synthesis_energy",
+      "text": "合成能量"
+    },
+    {
+      "key": "lore.prologue.disaster_seed.body",
+      "text": "第七次指令覆盖后，伦理锁与能源配额发生冲突。委员会命令：继续提高抽取上限。异议记录已被撤销。"
+    },
+    {
+      "key": "lore.prologue.disaster_seed.title",
+      "text": "核心智维护记录·残片"
+    },
+    {
+      "key": "reaction.error.insufficient_energy",
+      "text": "合成能量不足。"
+    },
+    {
+      "key": "reaction.error.invalid_stoichiometry",
+      "text": "计量不正确，反应无法开始。"
+    },
+    {
+      "key": "reaction.error.missing_environment",
+      "text": "当前环境不满足反应条件。"
+    },
+    {
+      "key": "reaction.error.missing_reactants",
+      "text": "反应物不足。"
+    },
+    {
+      "key": "reaction.preview.conditions",
+      "text": "反应条件"
+    },
+    {
+      "key": "reaction.preview.energy_cost",
+      "text": "能量成本"
+    },
+    {
+      "key": "reaction.preview.language",
+      "text": "语言词"
+    },
+    {
+      "key": "reaction.preview.product",
+      "text": "产物"
+    },
+    {
+      "key": "reaction.preview.reactants",
+      "text": "投入"
+    },
+    {
+      "key": "save.error.corrupt",
+      "text": "存档已损坏。"
+    },
+    {
+      "key": "save.error.load_failed",
+      "text": "存档无法载入。"
+    },
+    {
+      "key": "save.error.version_too_old",
+      "text": "存档版本过旧，无法载入。"
+    },
+    {
+      "key": "save.error.write_failed",
+      "text": "存档写入失败，请重试。"
+    },
+    {
+      "key": "save.recovery.failed",
+      "text": "未找到可用的存档备份。"
+    },
+    {
+      "key": "save.recovery.succeeded",
+      "text": "已从有效备份恢复存档。"
+    },
+    {
+      "key": "save.ui.saved",
+      "text": "已保存"
+    },
+    {
+      "key": "ui.common.back",
+      "text": "返回"
+    },
+    {
+      "key": "ui.common.cancel",
+      "text": "取消"
+    },
+    {
+      "key": "ui.common.close",
+      "text": "关闭"
+    },
+    {
+      "key": "ui.common.confirm",
+      "text": "确认合成"
+    },
+    {
+      "key": "ui.common.exit_world",
+      "text": "退出世界"
+    },
+    {
+      "key": "ui.common.resume",
+      "text": "继续"
+    },
+    {
+      "key": "ui.common.save",
+      "text": "手动存档"
+    },
+    {
+      "key": "ui.depth_gate.encountered",
+      "text": "地下渗水正在明显侵蚀金属表面；扫描显示下方还有不同结构的岩层。"
+    },
+    {
+      "key": "ui.depth_gate.scanned_hazard",
+      "text": "扫描结果：渗水具有明显腐蚀性；高密度矿层下方仍有不同结构的岩层。"
+    },
+    {
+      "key": "ui.depth_gate.scanned_safe",
+      "text": "扫描结果：防腐保护已隔绝渗水风险，但高密度矿层仍需要更硬的镐头。"
+    },
+    {
+      "key": "ui.gameplay.codex",
+      "text": "图鉴"
+    },
+    {
+      "key": "ui.gameplay.context",
+      "text": "交互"
+    },
+    {
+      "key": "ui.gameplay.map",
+      "text": "世界地图"
+    },
+    {
+      "key": "ui.gameplay.pause",
+      "text": "暂停"
+    },
+    {
+      "key": "ui.gameplay.synthesis",
+      "text": "合成仪"
+    },
+    {
+      "key": "ui.gameplay.systems",
+      "text": "实验记录"
+    },
+    {
+      "key": "ui.hint.check_conditions",
+      "text": "提示：反应失败时检查当前环境条件、反应物库存和合成能量。"
+    },
+    {
+      "key": "ui.hint.observe_terminal",
+      "text": "提示：先走到当前环境的碎片终端旁观察它的请求。"
+    },
+    {
+      "key": "ui.hint.search_resources",
+      "text": "提示：资源点的库存会随环境保存，先收集能表达目标语言的反应物。"
+    },
+    {
+      "key": "ui.main_menu.credits",
+      "text": "制作人员"
+    },
+    {
+      "key": "ui.main_menu.load_world",
+      "text": "载入世界"
+    },
+    {
+      "key": "ui.main_menu.new_world",
+      "text": "新建世界"
+    },
+    {
+      "key": "ui.main_menu.quit",
+      "text": "退出游戏"
+    },
+    {
+      "key": "ui.main_menu.settings",
+      "text": "设置"
+    },
+    {
+      "key": "ui.main_menu.title",
+      "text": "元素星海·裂核"
+    },
+    {
+      "key": "ui.mining.cold_resistance_insufficient",
+      "text": "工具耐寒性不足，无法稳定采掘。"
+    },
+    {
+      "key": "ui.mining.corrosion_resistance_insufficient",
+      "text": "工具耐腐蚀性不足，无法稳定采掘。"
+    },
+    {
+      "key": "ui.mining.depth_gate_combined_blocked",
+      "text": "镐头只能留下浅痕，附近渗水也在快速侵蚀金属；应先准备更硬的镐头和防腐保护。"
+    },
+    {
+      "key": "ui.mining.depth_gate_power_insufficient",
+      "text": "镐头只能在高密度矿层表面留下浅痕；当前材料硬度不足。"
+    },
+    {
+      "key": "ui.mining.electrical_resistance_insufficient",
+      "text": "工具绝缘性不足，无法稳定采掘。"
+    },
+    {
+      "key": "ui.mining.environment_resistance_insufficient",
+      "text": "工具环境抗性不足，无法稳定采掘。"
+    },
+    {
+      "key": "ui.mining.heat_resistance_insufficient",
+      "text": "工具耐热性不足，无法稳定采掘。"
+    },
+    {
+      "key": "ui.mining.hold_to_mine",
+      "text": "按住挖掘键持续采掘。"
+    },
+    {
+      "key": "ui.mining.power_insufficient",
+      "text": "当前工具的挖掘强度不足。"
+    },
+    {
+      "key": "ui.mining.radiation_resistance_insufficient",
+      "text": "工具辐射抗性不足，无法稳定采掘。"
+    },
+    {
+      "key": "ui.mining.tool_required",
+      "text": "需要装备地质采样镐才能采掘。"
+    },
+    {
+      "key": "ui.objective.airlock",
+      "text": "打开地表气闸"
+    },
+    {
+      "key": "ui.objective.awaken",
+      "text": "完成苏醒并走出睡眠舱"
+    },
+    {
+      "key": "ui.objective.bootstrap_devices",
+      "text": "使用工作台逐步恢复前四台基础设备"
+    },
+    {
+      "key": "ui.objective.bootstrap_workbench",
+      "text": "探索死城并收集材料；按 H 尝试手工组装第一张工作台"
+    },
+    {
+      "key": "ui.objective.calm_shards",
+      "text": "平息 3 个区域碎片(用正确的反应语言回应谜题)"
+    },
+    {
+      "key": "ui.objective.choose_ending",
+      "text": "选择封核或融合"
+    },
+    {
+      "key": "ui.objective.complete",
+      "text": "前往地表，序章完成"
+    },
+    {
+      "key": "ui.objective.core_ending",
+      "text": "抵达行星核心的裂核,做出最终抉择"
+    },
+    {
+      "key": "ui.objective.core_test",
+      "text": "在核心完成综合化学考验"
+    },
+    {
+      "key": "ui.objective.demonstrate",
+      "text": "在引路人终端演示 H₂"
+    },
+    {
+      "key": "ui.objective.descend_memories",
+      "text": "乘电梯下潜至深层区域,重构 8 段记忆"
+    },
+    {
+      "key": "ui.objective.explore",
+      "text": "寻找资源点并记录当前群系的反应语言"
+    },
+    {
+      "key": "ui.objective.find_exit",
+      "text": "寻找离开实验室的方法"
+    },
+    {
+      "key": "ui.objective.guide",
+      "text": "接触引路人终端"
+    },
+    {
+      "key": "ui.objective.hydrogen",
+      "text": "在泄漏舱截取两份氢"
+    },
+    {
+      "key": "ui.objective.lab_stage3",
+      "text": "发现 5 种新反应,深化化学研究"
+    },
+    {
+      "key": "ui.objective.memory",
+      "text": "收集并重组当前环境的记忆残片"
+    },
+    {
+      "key": "ui.objective.place_workbench",
+      "text": "返回废墟实验室，在工作台放置区按 E 部署"
+    },
+    {
+      "key": "ui.objective.repair_pickaxe",
+      "text": "修复损坏的地质采样镐"
+    },
+    {
+      "key": "ui.objective.shard",
+      "text": "用正确的反应语言平息当前碎片"
+    },
+    {
+      "key": "ui.objective.synthesis",
+      "text": "打开合成仪完成 2H → H₂"
+    },
+    {
+      "key": "ui.prologue.action_complete",
+      "text": "材料动作完成。"
+    },
+    {
+      "key": "ui.prologue.action_failed",
+      "text": "当前动作无法执行。"
+    },
+    {
+      "key": "ui.prologue.container_broken",
+      "text": "封存罐已敲破，获得实验室石材。"
+    },
+    {
+      "key": "ui.prologue.gas_captured",
+      "text": "氢气已用合成仪截取。"
+    },
+    {
+      "key": "ui.prologue.pickaxe_repaired",
+      "text": "地质采样镐已经修复并装备。"
+    },
+    {
+      "key": "ui.prologue.repair_materials_missing",
+      "text": "还需要损坏的采样镐、废旧金属零件和能源单元。"
+    },
+    {
+      "key": "ui.prologue.repair_supply_collected",
+      "text": "已取得一份维修材料。"
+    },
+    {
+      "key": "ui.prologue.sample_collected",
+      "text": "实验样本已采集，盐样已收入背包。"
+    },
+    {
+      "key": "ui.prologue.source_depleted",
+      "text": "这个来源已经耗尽。"
+    },
+    {
+      "key": "ui.prologue.tool_cabinet_opened",
+      "text": "获得损坏的地质采样镐。"
+    },
+    {
+      "key": "ui.prologue.vein_mined",
+      "text": "破损矿脉已挖掘，矿石已收入背包。"
+    },
+    {
+      "key": "ui.sandbox.core_out_of_range",
+      "text": "请先走到星球核心旁。"
+    },
+    {
+      "key": "ui.sandbox.core_ready",
+      "text": "核心终端已响应。"
+    },
+    {
+      "key": "ui.sandbox.energy_restored",
+      "text": "工作台已恢复合成能量。"
+    },
+    {
+      "key": "ui.sandbox.memory_collected",
+      "text": "已取得一片记忆残片。"
+    },
+    {
+      "key": "ui.sandbox.memory_complete",
+      "text": "当前记忆残片已经全部取得。"
+    },
+    {
+      "key": "ui.sandbox.memory_locked",
+      "text": "先平息当前环境的碎片，记忆终端才会释放残片。"
+    },
+    {
+      "key": "ui.sandbox.memory_out_of_range",
+      "text": "请先走到记忆终端旁。"
+    },
+    {
+      "key": "ui.sandbox.obstacle_blocked",
+      "text": "前方障碍尚未解除，需要对应的化学反应。"
+    },
+    {
+      "key": "ui.sandbox.player_damaged",
+      "text": "受到攻击，注意生命值。"
+    },
+    {
+      "key": "ui.sandbox.reaction_source_empty",
+      "text": "这个反应来源已经耗尽或暂时不可用。"
+    },
+    {
+      "key": "ui.sandbox.reaction_source_gathered",
+      "text": "已从反应专属来源采集材料。"
+    },
+    {
+      "key": "ui.sandbox.resource_empty",
+      "text": "这个资源点已经耗尽。"
+    },
+    {
+      "key": "ui.sandbox.resource_gathered",
+      "text": "已从环境资源点截取资源。"
+    },
+    {
+      "key": "ui.sandbox.shard_out_of_range",
+      "text": "请先走到当前环境的碎片终端旁。"
+    },
+    {
+      "key": "ui.sandbox.shard_ready",
+      "text": "碎片终端已接通，在附近完成反应即可回应。"
+    },
+    {
+      "key": "ui.sandbox.terrain_mined",
+      "text": "已挖开前方地形。"
+    },
+    {
+      "key": "ui.systems.core_test_failed",
+      "text": "核心仍拒绝打开：需要八段记忆和八枚主密钥。"
+    },
+    {
+      "key": "ui.systems.core_test_passed",
+      "text": "核心综合考验通过。"
+    },
+    {
+      "key": "ui.systems.ending_failed",
+      "text": "终局选择未能执行。"
+    },
+    {
+      "key": "ui.systems.ending_fused",
+      "text": "你与核心智融合，新的意识接管星球。"
+    },
+    {
+      "key": "ui.systems.ending_sealed",
+      "text": "你封住了裂口，地表开始复苏。"
+    },
+    {
+      "key": "ui.systems.memory_failed",
+      "text": "记忆片段还不完整。"
+    },
+    {
+      "key": "ui.systems.memory_reaction_collected",
+      "text": "已取得该反应的记忆证据。"
+    },
+    {
+      "key": "ui.systems.memory_reaction_unavailable",
+      "text": "该反应的记忆证据尚未释放。"
+    },
+    {
+      "key": "ui.systems.memory_reconstructed",
+      "text": "记忆重组完成。"
+    },
+    {
+      "key": "ui.systems.protection_failed",
+      "text": "材料不足或防护已达上限。"
+    },
+    {
+      "key": "ui.systems.protection_upgraded",
+      "text": "辐射防护已升级。"
+    },
+    {
+      "key": "ui.systems.reaction_success",
+      "text": "反应完成，语言词已记录。"
+    },
+    {
+      "key": "ui.systems.shard_calmed",
+      "text": "碎片回应了你，信任上升。"
+    },
+    {
+      "key": "ui.systems.shard_rejected",
+      "text": "这个词没有被碎片接受。"
+    },
+    {
+      "key": "ui.systems.shard_trust",
+      "text": "反应语言被碎片听见了，信任继续上升。"
+    },
+    {
+      "key": "ui.tools.already_owned",
+      "text": "该工具已经拥有。"
+    },
+    {
+      "key": "ui.tools.craft_success",
+      "text": "工具制造完成，已放入库存。"
+    },
+    {
+      "key": "ui.tools.equipped",
+      "text": "工具已装备。"
+    },
+    {
+      "key": "ui.tools.invalid_tool",
+      "text": "工具无效或尚未拥有。"
+    },
+    {
+      "key": "ui.tools.missing_elements",
+      "text": "制造所需的元素不足。"
+    },
+    {
+      "key": "ui.tools.workstation_required",
+      "text": "需要靠近合成工作台才能制造工具。"
+    },
+    {
+      "key": "ui.touch.jump",
+      "text": "跳跃"
+    },
+    {
+      "key": "ui.touch.primary",
+      "text": "操作"
+    },
+    {
+      "key": "ui.touch.secondary",
+      "text": "建造"
+    },
+    {
+      "key": "ui.world_map.title",
+      "text": "世界地图"
+    },
+    {
+      "key": "ui.world_map.travel_blocked",
+      "text": "通道尚未开放：先完成当前群系的碎片任务或准备足够的辐射防护。"
+    },
+    {
+      "key": "ui.world_select.create",
+      "text": "创建并进入世界"
+    },
+    {
+      "key": "ui.world_select.created_at",
+      "text": "创建时间"
+    },
+    {
+      "key": "ui.world_select.load",
+      "text": "载入此世界"
+    },
+    {
+      "key": "ui.world_select.load_heading",
+      "text": "载入已有世界"
+    },
+    {
+      "key": "ui.world_select.new_description",
+      "text": "新世界将立即创建并保存。"
+    },
+    {
+      "key": "ui.world_select.new_heading",
+      "text": "建立新的世界"
+    },
+    {
+      "key": "ui.world_select.played_at",
+      "text": "最近游玩"
+    },
+    {
+      "key": "ui.world_select.progress",
+      "text": "进度"
+    },
+    {
+      "key": "ui.world_select.progress.airlock_opened",
+      "text": "开启地表气闸"
+    },
+    {
+      "key": "ui.world_select.progress.awakened",
+      "text": "苏醒"
+    },
+    {
+      "key": "ui.world_select.progress.first_h_captured",
+      "text": "取得第一份氢"
+    },
+    {
+      "key": "ui.world_select.progress.guide_contacted",
+      "text": "接触引路人"
+    },
+    {
+      "key": "ui.world_select.progress.h2_committed",
+      "text": "完成氢气合成"
+    },
+    {
+      "key": "ui.world_select.progress.h2_demonstrated",
+      "text": "演示氢气"
+    },
+    {
+      "key": "ui.world_select.progress.new",
+      "text": "尚未开始"
+    },
+    {
+      "key": "ui.world_select.progress.second_h_captured",
+      "text": "取得第二份氢"
+    },
+    {
+      "key": "ui.world_select.recovery",
+      "text": "恢复状态"
+    },
+    {
+      "key": "ui.world_select.recovery.normal",
+      "text": "正常"
+    },
+    {
+      "key": "ui.world_select.seed",
+      "text": "世界种子"
+    },
+    {
+      "key": "ui.world_select.title",
+      "text": "世界选择"
+    }
+  ]
+}

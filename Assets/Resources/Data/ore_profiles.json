@@ -1,0 +1,60 @@
+{
+  "ores": [
+    {
+      "gangue": "silicate",
+      "grade": 0.72,
+      "id": "resource_iron_bearing_ore",
+      "metal": "element_fe",
+      "oxide": "compound_fe2o3"
+    },
+    {
+      "gangue": "stone",
+      "grade": 0.64,
+      "id": "resource_copper_bearing_ore",
+      "metal": "element_cu",
+      "oxide": "compound_cuo"
+    },
+    {
+      "gangue": "stone",
+      "grade": 0.58,
+      "id": "resource_zinc_bearing_ore",
+      "metal": "element_zn",
+      "oxide": "compound_zno"
+    },
+    {
+      "gangue": "stone",
+      "grade": 0.26,
+      "id": "resource_silver_bearing_ore",
+      "metal": "element_ag",
+      "oxide": "compound_agno3"
+    },
+    {
+      "gangue": "sulfate",
+      "grade": 0.34,
+      "id": "resource_barium_mineral",
+      "metal": "element_ba",
+      "oxide": "compound_baso4"
+    },
+    {
+      "gangue": "salt",
+      "grade": 0.7,
+      "id": "resource_nitrate_deposit",
+      "metal": "ion_no3",
+      "oxide": "ion_no3"
+    },
+    {
+      "gangue": "mixed",
+      "grade": 0.45,
+      "id": "resource_mixed_mine_tailings",
+      "metal": "mixed",
+      "oxide": "resource_mixed_mine_tailings"
+    },
+    {
+      "gangue": "water",
+      "grade": 0.5,
+      "id": "resource_mineral_solution",
+      "metal": "solution",
+      "oxide": "resource_mineral_solution"
+    }
+  ]
+}

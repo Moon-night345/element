@@ -1,0 +1,641 @@
+{
+  "reactions": [
+    {
+      "branch": "A",
+      "id": "reaction_h2_synthesis",
+      "lesson_key": "content.reaction.reaction_h2_synthesis.lesson",
+      "memory_id": "memory_01",
+      "route_nodes": [
+        "route_lab_exit",
+        "route_dead_city"
+      ],
+      "shard_id": "shard_guide",
+      "source_environments": [
+        "prologue_lab",
+        "dead_city_ruins"
+      ],
+      "title_key": "content.reaction.reaction_h2_synthesis.title"
+    },
+    {
+      "branch": "A",
+      "id": "reaction_o2_synthesis",
+      "lesson_key": "content.reaction.reaction_o2_synthesis.lesson",
+      "memory_id": "memory_01",
+      "route_nodes": [
+        "route_dead_city",
+        "route_crystal_tundra"
+      ],
+      "shard_id": "shard_guide",
+      "source_environments": [
+        "dead_city_ruins",
+        "crystal_tundra"
+      ],
+      "title_key": "content.reaction.reaction_o2_synthesis.title"
+    },
+    {
+      "branch": "A",
+      "id": "reaction_water_synthesis",
+      "lesson_key": "content.reaction.reaction_water_synthesis.lesson",
+      "memory_id": "memory_03",
+      "route_nodes": [
+        "route_crystal_tundra",
+        "route_water_channel"
+      ],
+      "shard_id": "shard_preserver",
+      "source_environments": [
+        "dead_city_ruins",
+        "crystal_tundra"
+      ],
+      "title_key": "content.reaction.reaction_water_synthesis.title"
+    },
+    {
+      "branch": "A",
+      "id": "reaction_water_electrolysis",
+      "lesson_key": "content.reaction.reaction_water_electrolysis.lesson",
+      "memory_id": "memory_07",
+      "route_nodes": [
+        "route_salt_marsh",
+        "route_magnetic_plateau"
+      ],
+      "shard_id": "shard_corrector",
+      "source_environments": [
+        "salt_marsh",
+        "magnetic_plateau"
+      ],
+      "title_key": "content.reaction.reaction_water_electrolysis.title"
+    },
+    {
+      "branch": "B",
+      "id": "reaction_co2",
+      "lesson_key": "content.reaction.reaction_co2.lesson",
+      "memory_id": "memory_05",
+      "route_nodes": [
+        "route_ember_rift",
+        "route_sand_desert"
+      ],
+      "shard_id": "shard_burner",
+      "source_environments": [
+        "ember_rift",
+        "sand_desert"
+      ],
+      "title_key": "content.reaction.reaction_co2.title"
+    },
+    {
+      "branch": "B",
+      "id": "reaction_co",
+      "lesson_key": "content.reaction.reaction_co.lesson",
+      "memory_id": "memory_08",
+      "route_nodes": [
+        "route_fluorescent_grotto",
+        "route_abandoned_mine"
+      ],
+      "shard_id": "shard_dreamer",
+      "source_environments": [
+        "fluorescent_grotto",
+        "abandoned_mine"
+      ],
+      "title_key": "content.reaction.reaction_co.title"
+    },
+    {
+      "branch": "B",
+      "id": "reaction_ch4",
+      "lesson_key": "content.reaction.reaction_ch4.lesson",
+      "memory_id": "memory_05",
+      "route_nodes": [
+        "route_dead_city",
+        "route_ember_rift"
+      ],
+      "shard_id": "shard_burner",
+      "source_environments": [
+        "dead_city_ruins",
+        "ember_rift"
+      ],
+      "title_key": "content.reaction.reaction_ch4.title"
+    },
+    {
+      "branch": "B",
+      "id": "reaction_c2h2",
+      "lesson_key": "content.reaction.reaction_c2h2.lesson",
+      "memory_id": "memory_08",
+      "route_nodes": [
+        "route_ember_rift",
+        "route_abandoned_mine"
+      ],
+      "shard_id": "shard_gatekeeper",
+      "source_environments": [
+        "dead_city_ruins",
+        "ember_rift"
+      ],
+      "title_key": "content.reaction.reaction_c2h2.title"
+    },
+    {
+      "branch": "B",
+      "id": "reaction_combustion",
+      "lesson_key": "content.reaction.reaction_combustion.lesson",
+      "memory_id": "memory_05",
+      "route_nodes": [
+        "route_ember_rift",
+        "route_mantle_flows"
+      ],
+      "shard_id": "shard_burner",
+      "source_environments": [
+        "ember_rift",
+        "fluorescent_grotto"
+      ],
+      "title_key": "content.reaction.reaction_combustion.title"
+    },
+    {
+      "branch": "C",
+      "id": "reaction_hcl",
+      "lesson_key": "content.reaction.reaction_hcl.lesson",
+      "memory_id": "memory_02",
+      "route_nodes": [
+        "route_rust_jungle",
+        "route_salt_marsh"
+      ],
+      "shard_id": "shard_cleanser",
+      "source_environments": [
+        "rust_jungle",
+        "salt_marsh"
+      ],
+      "title_key": "content.reaction.reaction_hcl.title"
+    },
+    {
+      "branch": "C",
+      "id": "reaction_naoh",
+      "lesson_key": "content.reaction.reaction_naoh.lesson",
+      "memory_id": "memory_04",
+      "route_nodes": [
+        "route_salt_marsh",
+        "route_neutralization"
+      ],
+      "shard_id": "shard_precipitator",
+      "source_environments": [
+        "salt_marsh"
+      ],
+      "title_key": "content.reaction.reaction_naoh.title"
+    },
+    {
+      "branch": "C",
+      "id": "reaction_h2so4",
+      "lesson_key": "content.reaction.reaction_h2so4.lesson",
+      "memory_id": "memory_05",
+      "route_nodes": [
+        "route_ember_rift",
+        "route_mantle_flows"
+      ],
+      "shard_id": "shard_burner",
+      "source_environments": [
+        "ember_rift",
+        "mantle_flows"
+      ],
+      "title_key": "content.reaction.reaction_h2so4.title"
+    },
+    {
+      "branch": "C",
+      "id": "reaction_hno3",
+      "lesson_key": "content.reaction.reaction_hno3.lesson",
+      "memory_id": "memory_07",
+      "route_nodes": [
+        "route_magnetic_plateau",
+        "route_salt_marsh"
+      ],
+      "shard_id": "shard_corrector",
+      "source_environments": [
+        "magnetic_plateau",
+        "salt_marsh"
+      ],
+      "title_key": "content.reaction.reaction_hno3.title"
+    },
+    {
+      "branch": "C",
+      "id": "reaction_nh3",
+      "lesson_key": "content.reaction.reaction_nh3.lesson",
+      "memory_id": "memory_07",
+      "route_nodes": [
+        "route_magnetic_plateau",
+        "route_planetary_core"
+      ],
+      "shard_id": "shard_core_mind",
+      "source_environments": [
+        "magnetic_plateau",
+        "planetary_core"
+      ],
+      "title_key": "content.reaction.reaction_nh3.title"
+    },
+    {
+      "branch": "C",
+      "id": "reaction_neutralization",
+      "lesson_key": "content.reaction.reaction_neutralization.lesson",
+      "memory_id": "memory_04",
+      "route_nodes": [
+        "route_salt_marsh",
+        "route_rust_jungle"
+      ],
+      "shard_id": "shard_precipitator",
+      "source_environments": [
+        "salt_marsh",
+        "rust_jungle"
+      ],
+      "title_key": "content.reaction.reaction_neutralization.title"
+    },
+    {
+      "branch": "D",
+      "id": "reaction_fe_refine",
+      "lesson_key": "content.reaction.reaction_fe_refine.lesson",
+      "memory_id": "memory_08",
+      "route_nodes": [
+        "route_abandoned_mine",
+        "route_mantle_flows"
+      ],
+      "shard_id": "shard_excavator",
+      "source_environments": [
+        "abandoned_mine",
+        "mantle_flows"
+      ],
+      "title_key": "content.reaction.reaction_fe_refine.title"
+    },
+    {
+      "branch": "D",
+      "id": "reaction_cu_refine",
+      "lesson_key": "content.reaction.reaction_cu_refine.lesson",
+      "memory_id": "memory_07",
+      "route_nodes": [
+        "route_abandoned_mine",
+        "route_magnetic_plateau"
+      ],
+      "shard_id": "shard_corrector",
+      "source_environments": [
+        "abandoned_mine",
+        "magnetic_plateau"
+      ],
+      "title_key": "content.reaction.reaction_cu_refine.title"
+    },
+    {
+      "branch": "D",
+      "id": "reaction_zn_refine",
+      "lesson_key": "content.reaction.reaction_zn_refine.lesson",
+      "memory_id": "memory_08",
+      "route_nodes": [
+        "route_abandoned_mine",
+        "route_ember_rift"
+      ],
+      "shard_id": "shard_excavator",
+      "source_environments": [
+        "abandoned_mine",
+        "ember_rift"
+      ],
+      "title_key": "content.reaction.reaction_zn_refine.title"
+    },
+    {
+      "branch": "D",
+      "id": "reaction_rust",
+      "lesson_key": "content.reaction.reaction_rust.lesson",
+      "memory_id": "memory_02",
+      "route_nodes": [
+        "route_rust_jungle",
+        "route_topsoil_caves"
+      ],
+      "shard_id": "shard_cleanser",
+      "source_environments": [
+        "rust_jungle",
+        "topsoil_caves"
+      ],
+      "title_key": "content.reaction.reaction_rust.title"
+    },
+    {
+      "branch": "D",
+      "id": "reaction_displacement",
+      "lesson_key": "content.reaction.reaction_displacement.lesson",
+      "memory_id": "memory_08",
+      "route_nodes": [
+        "route_rust_jungle",
+        "route_abandoned_mine"
+      ],
+      "shard_id": "shard_excavator",
+      "source_environments": [
+        "rust_jungle",
+        "abandoned_mine"
+      ],
+      "title_key": "content.reaction.reaction_displacement.title"
+    },
+    {
+      "branch": "E",
+      "id": "reaction_agno3",
+      "lesson_key": "content.reaction.reaction_agno3.lesson",
+      "memory_id": "memory_08",
+      "route_nodes": [
+        "route_abandoned_mine",
+        "route_magnetic_plateau"
+      ],
+      "shard_id": "shard_precipitator",
+      "source_environments": [
+        "abandoned_mine",
+        "magnetic_plateau"
+      ],
+      "title_key": "content.reaction.reaction_agno3.title"
+    },
+    {
+      "branch": "E",
+      "id": "reaction_agcl",
+      "lesson_key": "content.reaction.reaction_agcl.lesson",
+      "memory_id": "memory_04",
+      "route_nodes": [
+        "route_salt_marsh",
+        "route_abandoned_mine"
+      ],
+      "shard_id": "shard_precipitator",
+      "source_environments": [
+        "salt_marsh",
+        "abandoned_mine"
+      ],
+      "title_key": "content.reaction.reaction_agcl.title"
+    },
+    {
+      "branch": "E",
+      "id": "reaction_baso4",
+      "lesson_key": "content.reaction.reaction_baso4.lesson",
+      "memory_id": "memory_08",
+      "route_nodes": [
+        "route_fossil_strata",
+        "route_abandoned_mine"
+      ],
+      "shard_id": "shard_memory",
+      "source_environments": [
+        "fossil_strata",
+        "abandoned_mine"
+      ],
+      "title_key": "content.reaction.reaction_baso4.title"
+    },
+    {
+      "branch": "E",
+      "id": "reaction_cuso4",
+      "lesson_key": "content.reaction.reaction_cuso4.lesson",
+      "memory_id": "memory_07",
+      "route_nodes": [
+        "route_abandoned_mine",
+        "route_salt_marsh"
+      ],
+      "shard_id": "shard_corrector",
+      "source_environments": [
+        "abandoned_mine",
+        "salt_marsh"
+      ],
+      "title_key": "content.reaction.reaction_cuso4.title"
+    },
+    {
+      "branch": "E",
+      "id": "reaction_lime_cycle",
+      "lesson_key": "content.reaction.reaction_lime_cycle.lesson",
+      "memory_id": "memory_03",
+      "route_nodes": [
+        "route_crystal_tundra",
+        "route_fossil_strata"
+      ],
+      "shard_id": "shard_preserver",
+      "source_environments": [
+        "crystal_tundra",
+        "fossil_strata"
+      ],
+      "title_key": "content.reaction.reaction_lime_cycle.title"
+    },
+    {
+      "branch": "F",
+      "id": "reaction_n2",
+      "lesson_key": "content.reaction.reaction_n2.lesson",
+      "memory_id": "memory_07",
+      "route_nodes": [
+        "route_magnetic_plateau",
+        "route_crystal_tundra"
+      ],
+      "shard_id": "shard_corrector",
+      "source_environments": [
+        "magnetic_plateau",
+        "crystal_tundra"
+      ],
+      "title_key": "content.reaction.reaction_n2.title"
+    },
+    {
+      "branch": "F",
+      "id": "reaction_nh3_from_n2",
+      "lesson_key": "content.reaction.reaction_nh3_from_n2.lesson",
+      "memory_id": "memory_07",
+      "route_nodes": [
+        "route_magnetic_plateau",
+        "route_planetary_core"
+      ],
+      "shard_id": "shard_core_mind",
+      "source_environments": [
+        "magnetic_plateau",
+        "planetary_core"
+      ],
+      "title_key": "content.reaction.reaction_nh3_from_n2.title"
+    },
+    {
+      "branch": "F",
+      "id": "reaction_no",
+      "lesson_key": "content.reaction.reaction_no.lesson",
+      "memory_id": "memory_07",
+      "route_nodes": [
+        "route_magnetic_plateau",
+        "route_no_chain"
+      ],
+      "shard_id": "shard_corrector",
+      "source_environments": [
+        "magnetic_plateau"
+      ],
+      "title_key": "content.reaction.reaction_no.title"
+    },
+    {
+      "branch": "F",
+      "id": "reaction_no2",
+      "lesson_key": "content.reaction.reaction_no2.lesson",
+      "memory_id": "memory_07",
+      "route_nodes": [
+        "route_magnetic_plateau",
+        "route_no_chain"
+      ],
+      "shard_id": "shard_corrector",
+      "source_environments": [
+        "magnetic_plateau"
+      ],
+      "title_key": "content.reaction.reaction_no2.title"
+    },
+    {
+      "branch": "F",
+      "id": "reaction_hno3_from_no2",
+      "lesson_key": "content.reaction.reaction_hno3_from_no2.lesson",
+      "memory_id": "memory_07",
+      "route_nodes": [
+        "route_salt_marsh",
+        "route_planetary_core"
+      ],
+      "shard_id": "shard_core_mind",
+      "source_environments": [
+        "salt_marsh",
+        "magnetic_plateau"
+      ],
+      "title_key": "content.reaction.reaction_hno3_from_no2.title"
+    },
+    {
+      "branch": "F",
+      "id": "reaction_nh4cl",
+      "lesson_key": "content.reaction.reaction_nh4cl.lesson",
+      "memory_id": "memory_02",
+      "route_nodes": [
+        "route_rust_jungle",
+        "route_magnetic_plateau"
+      ],
+      "shard_id": "shard_dreamer",
+      "source_environments": [
+        "rust_jungle",
+        "magnetic_plateau"
+      ],
+      "title_key": "content.reaction.reaction_nh4cl.title"
+    },
+    {
+      "branch": "G",
+      "id": "reaction_so2",
+      "lesson_key": "content.reaction.reaction_so2.lesson",
+      "memory_id": "memory_05",
+      "route_nodes": [
+        "route_ember_rift",
+        "route_mantle_flows"
+      ],
+      "shard_id": "shard_igniter",
+      "source_environments": [
+        "ember_rift",
+        "mantle_flows"
+      ],
+      "title_key": "content.reaction.reaction_so2.title"
+    },
+    {
+      "branch": "G",
+      "id": "reaction_h2o2",
+      "lesson_key": "content.reaction.reaction_h2o2.lesson",
+      "memory_id": "memory_02",
+      "route_nodes": [
+        "route_fluorescent_grotto",
+        "route_rust_jungle"
+      ],
+      "shard_id": "shard_dreamer",
+      "source_environments": [
+        "fluorescent_grotto",
+        "rust_jungle"
+      ],
+      "title_key": "content.reaction.reaction_h2o2.title"
+    },
+    {
+      "branch": "G",
+      "id": "reaction_cl2",
+      "lesson_key": "content.reaction.reaction_cl2.lesson",
+      "memory_id": "memory_02",
+      "route_nodes": [
+        "route_rust_jungle",
+        "route_salt_marsh"
+      ],
+      "shard_id": "shard_cleanser",
+      "source_environments": [
+        "rust_jungle",
+        "salt_marsh"
+      ],
+      "title_key": "content.reaction.reaction_cl2.title"
+    },
+    {
+      "branch": "G",
+      "id": "reaction_kmno4",
+      "lesson_key": "content.reaction.reaction_kmno4.lesson",
+      "memory_id": "memory_07",
+      "route_nodes": [
+        "route_radiation_belt",
+        "route_magnetic_plateau"
+      ],
+      "shard_id": "shard_leaker",
+      "source_environments": [
+        "radiation_belt",
+        "magnetic_plateau"
+      ],
+      "title_key": "content.reaction.reaction_kmno4.title"
+    },
+    {
+      "branch": "H",
+      "id": "reaction_ethanol",
+      "lesson_key": "content.reaction.reaction_ethanol.lesson",
+      "memory_id": "memory_02",
+      "route_nodes": [
+        "route_fluorescent_grotto",
+        "route_rust_jungle"
+      ],
+      "shard_id": "shard_dreamer",
+      "source_environments": [
+        "fluorescent_grotto",
+        "rust_jungle"
+      ],
+      "title_key": "content.reaction.reaction_ethanol.title"
+    },
+    {
+      "branch": "H",
+      "id": "reaction_caco3",
+      "lesson_key": "content.reaction.reaction_caco3.lesson",
+      "memory_id": "memory_03",
+      "route_nodes": [
+        "route_crystal_tundra",
+        "route_fossil_strata"
+      ],
+      "shard_id": "shard_preserver",
+      "source_environments": [
+        "crystal_tundra",
+        "fossil_strata"
+      ],
+      "title_key": "content.reaction.reaction_caco3.title"
+    },
+    {
+      "branch": "H",
+      "id": "reaction_caco3_decompose",
+      "lesson_key": "content.reaction.reaction_caco3_decompose.lesson",
+      "memory_id": "memory_08",
+      "route_nodes": [
+        "route_fossil_strata",
+        "route_ember_rift"
+      ],
+      "shard_id": "shard_memory",
+      "source_environments": [
+        "fossil_strata",
+        "ember_rift"
+      ],
+      "title_key": "content.reaction.reaction_caco3_decompose.title"
+    },
+    {
+      "branch": "H",
+      "id": "reaction_co2_lime_test",
+      "lesson_key": "content.reaction.reaction_co2_lime_test.lesson",
+      "memory_id": "memory_08",
+      "route_nodes": [
+        "route_fossil_strata",
+        "route_memory_chamber"
+      ],
+      "shard_id": "shard_memory",
+      "source_environments": [
+        "crystal_tundra",
+        "fossil_strata"
+      ],
+      "title_key": "content.reaction.reaction_co2_lime_test.title"
+    },
+    {
+      "branch": "G",
+      "id": "reaction_h2o2_decompose",
+      "lesson_key": "content.reaction.reaction_h2o2_decompose.lesson",
+      "memory_id": "memory_02",
+      "route_nodes": [
+        "route_fluorescent_grotto",
+        "route_topsoil_caves"
+      ],
+      "shard_id": "shard_dreamer",
+      "source_environments": [
+        "fluorescent_grotto",
+        "rust_jungle"
+      ],
+      "title_key": "content.reaction.reaction_h2o2_decompose.title"
+    }
+  ]
+}

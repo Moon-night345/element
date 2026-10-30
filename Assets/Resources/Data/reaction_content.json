@@ -1,0 +1,966 @@
+{
+  "reactions": [
+    {
+      "alternate_reaction_ids": [
+        "reaction_displacement"
+      ],
+      "id": "reaction_h2_synthesis",
+      "memory_id": "memory_01",
+      "obstacle_id": "obstacle_airlock_pressure",
+      "required_tags": [
+        "wet"
+      ],
+      "route_nodes": [
+        "route_lab_exit",
+        "route_dead_city"
+      ],
+      "shard_id": "shard_guide",
+      "source_environments": [
+        "prologue_lab",
+        "dead_city_ruins"
+      ],
+      "source_nodes": [
+        "hydrogen_leak",
+        "surface_capture"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_water_synthesis"
+      ],
+      "id": "reaction_o2_synthesis",
+      "memory_id": "memory_01",
+      "obstacle_id": "obstacle_oxygen_seal",
+      "required_tags": [
+        "open_air",
+        "cold"
+      ],
+      "route_nodes": [
+        "route_dead_city",
+        "route_crystal_tundra"
+      ],
+      "shard_id": "shard_guide",
+      "source_environments": [
+        "dead_city_ruins",
+        "crystal_tundra"
+      ],
+      "source_nodes": [
+        "oxygen_vent",
+        "cold_capture"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_caco3"
+      ],
+      "id": "reaction_water_synthesis",
+      "memory_id": "memory_03",
+      "obstacle_id": "obstacle_water_channel",
+      "required_tags": [
+        "wet"
+      ],
+      "route_nodes": [
+        "route_crystal_tundra",
+        "route_water_channel"
+      ],
+      "shard_id": "shard_preserver",
+      "source_environments": [
+        "dead_city_ruins",
+        "crystal_tundra"
+      ],
+      "source_nodes": [
+        "ice_melt",
+        "hydrogen_cistern"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_cuso4"
+      ],
+      "id": "reaction_water_electrolysis",
+      "memory_id": "memory_07",
+      "obstacle_id": "obstacle_power_grid",
+      "required_tags": [
+        "electric"
+      ],
+      "route_nodes": [
+        "route_salt_marsh",
+        "route_magnetic_plateau"
+      ],
+      "shard_id": "shard_corrector",
+      "source_environments": [
+        "salt_marsh",
+        "magnetic_plateau"
+      ],
+      "source_nodes": [
+        "storm_coil",
+        "electrolysis_bench"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_combustion"
+      ],
+      "id": "reaction_co2",
+      "memory_id": "memory_05",
+      "obstacle_id": "obstacle_smoke_gate",
+      "required_tags": [
+        "heat"
+      ],
+      "route_nodes": [
+        "route_ember_rift",
+        "route_sand_desert"
+      ],
+      "shard_id": "shard_burner",
+      "source_environments": [
+        "ember_rift",
+        "sand_desert"
+      ],
+      "source_nodes": [
+        "carbon_vent",
+        "sealed_furnace"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_co2"
+      ],
+      "id": "reaction_co",
+      "memory_id": "memory_08",
+      "obstacle_id": "obstacle_low_oxygen_gate",
+      "required_tags": [
+        "low_oxygen"
+      ],
+      "route_nodes": [
+        "route_fluorescent_grotto",
+        "route_abandoned_mine"
+      ],
+      "shard_id": "shard_dreamer",
+      "source_environments": [
+        "fluorescent_grotto",
+        "abandoned_mine"
+      ],
+      "source_nodes": [
+        "low_oxygen_pocket",
+        "sealed_drift"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_water_electrolysis"
+      ],
+      "id": "reaction_ch4",
+      "memory_id": "memory_05",
+      "obstacle_id": "obstacle_fuel_lift",
+      "required_tags": [
+        "heat"
+      ],
+      "route_nodes": [
+        "route_dead_city",
+        "route_ember_rift"
+      ],
+      "shard_id": "shard_burner",
+      "source_environments": [
+        "dead_city_ruins",
+        "ember_rift"
+      ],
+      "source_nodes": [
+        "hydrogen_reservoir",
+        "carbon_vent"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_displacement"
+      ],
+      "id": "reaction_c2h2",
+      "memory_id": "memory_08",
+      "obstacle_id": "obstacle_metal_barrier",
+      "required_tags": [
+        "heat"
+      ],
+      "route_nodes": [
+        "route_ember_rift",
+        "route_abandoned_mine"
+      ],
+      "shard_id": "shard_gatekeeper",
+      "source_environments": [
+        "dead_city_ruins",
+        "ember_rift"
+      ],
+      "source_nodes": [
+        "carbon_vent",
+        "hydrogen_reservoir"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_co2"
+      ],
+      "id": "reaction_combustion",
+      "memory_id": "memory_05",
+      "obstacle_id": "obstacle_thermal_lift",
+      "required_tags": [
+        "heat"
+      ],
+      "route_nodes": [
+        "route_ember_rift",
+        "route_mantle_flows"
+      ],
+      "shard_id": "shard_burner",
+      "source_environments": [
+        "ember_rift",
+        "fluorescent_grotto"
+      ],
+      "source_nodes": [
+        "thermal_generator",
+        "oxygen_limited_furnace"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_displacement"
+      ],
+      "id": "reaction_hcl",
+      "memory_id": "memory_02",
+      "obstacle_id": "obstacle_acid_lock",
+      "required_tags": [
+        "synthesis_bench"
+      ],
+      "route_nodes": [
+        "route_rust_jungle",
+        "route_salt_marsh"
+      ],
+      "shard_id": "shard_cleanser",
+      "source_environments": [
+        "rust_jungle",
+        "salt_marsh"
+      ],
+      "source_nodes": [
+        "acid_pool",
+        "chlorine_spring"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_hcl"
+      ],
+      "id": "reaction_naoh",
+      "memory_id": "memory_04",
+      "obstacle_id": "obstacle_alkali_lock",
+      "required_tags": [
+        "synthesis_bench"
+      ],
+      "route_nodes": [
+        "route_salt_marsh",
+        "route_neutralization"
+      ],
+      "shard_id": "shard_precipitator",
+      "source_environments": [
+        "salt_marsh"
+      ],
+      "source_nodes": [
+        "alkali_pool",
+        "salt_separator"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_water_synthesis"
+      ],
+      "id": "reaction_h2so4",
+      "memory_id": "memory_05",
+      "obstacle_id": "obstacle_dehydration_wall",
+      "required_tags": [
+        "heat"
+      ],
+      "route_nodes": [
+        "route_ember_rift",
+        "route_mantle_flows"
+      ],
+      "shard_id": "shard_burner",
+      "source_environments": [
+        "ember_rift",
+        "mantle_flows"
+      ],
+      "source_nodes": [
+        "sulfur_vent",
+        "hot_acid_chamber"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_no2"
+      ],
+      "id": "reaction_hno3",
+      "memory_id": "memory_07",
+      "obstacle_id": "obstacle_copper_seal",
+      "required_tags": [
+        "electric"
+      ],
+      "route_nodes": [
+        "route_magnetic_plateau",
+        "route_salt_marsh"
+      ],
+      "shard_id": "shard_corrector",
+      "source_environments": [
+        "magnetic_plateau",
+        "salt_marsh"
+      ],
+      "source_nodes": [
+        "nox_storm",
+        "electric_acid_lab"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_n2"
+      ],
+      "id": "reaction_nh3",
+      "memory_id": "memory_07",
+      "obstacle_id": "obstacle_catalyst_gate",
+      "required_tags": [
+        "high_pressure"
+      ],
+      "route_nodes": [
+        "route_magnetic_plateau",
+        "route_planetary_core"
+      ],
+      "shard_id": "shard_core_mind",
+      "source_environments": [
+        "magnetic_plateau",
+        "planetary_core"
+      ],
+      "source_nodes": [
+        "nitrogen_separator",
+        "pressure_catalyst"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_hcl",
+        "reaction_naoh"
+      ],
+      "id": "reaction_neutralization",
+      "memory_id": "memory_04",
+      "obstacle_id": "obstacle_corrosive_pool",
+      "required_tags": [
+        "wet"
+      ],
+      "route_nodes": [
+        "route_salt_marsh",
+        "route_rust_jungle"
+      ],
+      "shard_id": "shard_precipitator",
+      "source_environments": [
+        "salt_marsh",
+        "rust_jungle"
+      ],
+      "source_nodes": [
+        "ph_lab",
+        "corrosive_pool"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_rust"
+      ],
+      "id": "reaction_fe_refine",
+      "memory_id": "memory_08",
+      "obstacle_id": "obstacle_iron_bridge",
+      "required_tags": [
+        "heat"
+      ],
+      "route_nodes": [
+        "route_abandoned_mine",
+        "route_mantle_flows"
+      ],
+      "shard_id": "shard_excavator",
+      "source_environments": [
+        "abandoned_mine",
+        "mantle_flows"
+      ],
+      "source_nodes": [
+        "iron_forge",
+        "ore_smelter"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_water_electrolysis"
+      ],
+      "id": "reaction_cu_refine",
+      "memory_id": "memory_07",
+      "obstacle_id": "obstacle_copper_bridge",
+      "required_tags": [
+        "heat"
+      ],
+      "route_nodes": [
+        "route_abandoned_mine",
+        "route_magnetic_plateau"
+      ],
+      "shard_id": "shard_corrector",
+      "source_environments": [
+        "abandoned_mine",
+        "magnetic_plateau"
+      ],
+      "source_nodes": [
+        "copper_forge",
+        "storm_furnace"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_fe_refine"
+      ],
+      "id": "reaction_zn_refine",
+      "memory_id": "memory_08",
+      "obstacle_id": "obstacle_zinc_coating",
+      "required_tags": [
+        "heat"
+      ],
+      "route_nodes": [
+        "route_abandoned_mine",
+        "route_ember_rift"
+      ],
+      "shard_id": "shard_excavator",
+      "source_environments": [
+        "abandoned_mine",
+        "ember_rift"
+      ],
+      "source_nodes": [
+        "zinc_forge",
+        "ore_smelter"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_h2o2"
+      ],
+      "id": "reaction_rust",
+      "memory_id": "memory_02",
+      "obstacle_id": "obstacle_rust_growth",
+      "required_tags": [
+        "wet"
+      ],
+      "route_nodes": [
+        "route_rust_jungle",
+        "route_topsoil_caves"
+      ],
+      "shard_id": "shard_cleanser",
+      "source_environments": [
+        "rust_jungle",
+        "topsoil_caves"
+      ],
+      "source_nodes": [
+        "rust_canopy",
+        "wet_ore"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_hcl"
+      ],
+      "id": "reaction_displacement",
+      "memory_id": "memory_08",
+      "obstacle_id": "obstacle_hydrogen_valve",
+      "required_tags": [
+        "synthesis_bench"
+      ],
+      "route_nodes": [
+        "route_rust_jungle",
+        "route_abandoned_mine"
+      ],
+      "shard_id": "shard_excavator",
+      "source_environments": [
+        "rust_jungle",
+        "abandoned_mine"
+      ],
+      "source_nodes": [
+        "zinc_vein",
+        "acid_pool"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_agcl"
+      ],
+      "id": "reaction_agno3",
+      "memory_id": "memory_08",
+      "obstacle_id": "obstacle_silver_sensor",
+      "required_tags": [
+        "synthesis_bench"
+      ],
+      "route_nodes": [
+        "route_abandoned_mine",
+        "route_magnetic_plateau"
+      ],
+      "shard_id": "shard_precipitator",
+      "source_environments": [
+        "abandoned_mine",
+        "magnetic_plateau"
+      ],
+      "source_nodes": [
+        "silver_vein",
+        "nitrate_separator"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_agno3"
+      ],
+      "id": "reaction_agcl",
+      "memory_id": "memory_04",
+      "obstacle_id": "obstacle_chloride_lens",
+      "required_tags": [
+        "wet"
+      ],
+      "route_nodes": [
+        "route_salt_marsh",
+        "route_abandoned_mine"
+      ],
+      "shard_id": "shard_precipitator",
+      "source_environments": [
+        "salt_marsh",
+        "abandoned_mine"
+      ],
+      "source_nodes": [
+        "chloride_lab",
+        "silver_test_bench"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_cuso4"
+      ],
+      "id": "reaction_baso4",
+      "memory_id": "memory_08",
+      "obstacle_id": "obstacle_barium_anchor",
+      "required_tags": [
+        "wet"
+      ],
+      "route_nodes": [
+        "route_fossil_strata",
+        "route_abandoned_mine"
+      ],
+      "shard_id": "shard_memory",
+      "source_environments": [
+        "fossil_strata",
+        "abandoned_mine"
+      ],
+      "source_nodes": [
+        "barium_pocket",
+        "sulfate_lab"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_cu_refine"
+      ],
+      "id": "reaction_cuso4",
+      "memory_id": "memory_07",
+      "obstacle_id": "obstacle_copper_sensor",
+      "required_tags": [
+        "wet"
+      ],
+      "route_nodes": [
+        "route_abandoned_mine",
+        "route_salt_marsh"
+      ],
+      "shard_id": "shard_corrector",
+      "source_environments": [
+        "abandoned_mine",
+        "salt_marsh"
+      ],
+      "source_nodes": [
+        "copper_solution",
+        "sulfate_lab"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_caco3"
+      ],
+      "id": "reaction_lime_cycle",
+      "memory_id": "memory_03",
+      "obstacle_id": "obstacle_limestone_dam",
+      "required_tags": [
+        "wet"
+      ],
+      "route_nodes": [
+        "route_crystal_tundra",
+        "route_fossil_strata"
+      ],
+      "shard_id": "shard_preserver",
+      "source_environments": [
+        "crystal_tundra",
+        "fossil_strata"
+      ],
+      "source_nodes": [
+        "limestone_cave",
+        "lime_pool"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_nh3_from_n2"
+      ],
+      "id": "reaction_n2",
+      "memory_id": "memory_07",
+      "obstacle_id": "obstacle_nitrogen_seal",
+      "required_tags": [
+        "electric",
+        "cold"
+      ],
+      "route_nodes": [
+        "route_magnetic_plateau",
+        "route_crystal_tundra"
+      ],
+      "shard_id": "shard_corrector",
+      "source_environments": [
+        "magnetic_plateau",
+        "crystal_tundra"
+      ],
+      "source_nodes": [
+        "nitrogen_separator",
+        "cold_air_column"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_nh3"
+      ],
+      "id": "reaction_nh3_from_n2",
+      "memory_id": "memory_07",
+      "obstacle_id": "obstacle_ammonia_valve",
+      "required_tags": [
+        "high_pressure"
+      ],
+      "route_nodes": [
+        "route_magnetic_plateau",
+        "route_planetary_core"
+      ],
+      "shard_id": "shard_core_mind",
+      "source_environments": [
+        "magnetic_plateau",
+        "planetary_core"
+      ],
+      "source_nodes": [
+        "pressure_catalyst",
+        "nitrogen_separator"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_nh3_from_n2"
+      ],
+      "id": "reaction_no",
+      "memory_id": "memory_07",
+      "obstacle_id": "obstacle_no_conduit",
+      "required_tags": [
+        "electric"
+      ],
+      "route_nodes": [
+        "route_magnetic_plateau",
+        "route_no_chain"
+      ],
+      "shard_id": "shard_corrector",
+      "source_environments": [
+        "magnetic_plateau"
+      ],
+      "source_nodes": [
+        "lightning_catalyst",
+        "nox_storm"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_no"
+      ],
+      "id": "reaction_no2",
+      "memory_id": "memory_07",
+      "obstacle_id": "obstacle_no2_conduit",
+      "required_tags": [
+        "electric"
+      ],
+      "route_nodes": [
+        "route_magnetic_plateau",
+        "route_no_chain"
+      ],
+      "shard_id": "shard_corrector",
+      "source_environments": [
+        "magnetic_plateau"
+      ],
+      "source_nodes": [
+        "lightning_catalyst",
+        "nox_storm"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_no2"
+      ],
+      "id": "reaction_hno3_from_no2",
+      "memory_id": "memory_07",
+      "obstacle_id": "obstacle_nitric_acid_gate",
+      "required_tags": [
+        "electric",
+        "wet"
+      ],
+      "route_nodes": [
+        "route_salt_marsh",
+        "route_planetary_core"
+      ],
+      "shard_id": "shard_core_mind",
+      "source_environments": [
+        "salt_marsh",
+        "magnetic_plateau"
+      ],
+      "source_nodes": [
+        "electric_acid_lab",
+        "nox_storm"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_nh3"
+      ],
+      "id": "reaction_nh4cl",
+      "memory_id": "memory_02",
+      "obstacle_id": "obstacle_ammonium_fog",
+      "required_tags": [
+        "synthesis_bench"
+      ],
+      "route_nodes": [
+        "route_rust_jungle",
+        "route_magnetic_plateau"
+      ],
+      "shard_id": "shard_dreamer",
+      "source_environments": [
+        "rust_jungle",
+        "magnetic_plateau"
+      ],
+      "source_nodes": [
+        "ammonia_vent",
+        "acid_pool"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_h2o2"
+      ],
+      "id": "reaction_so2",
+      "memory_id": "memory_05",
+      "obstacle_id": "obstacle_sulfur_smoke",
+      "required_tags": [
+        "heat"
+      ],
+      "route_nodes": [
+        "route_ember_rift",
+        "route_mantle_flows"
+      ],
+      "shard_id": "shard_igniter",
+      "source_environments": [
+        "ember_rift",
+        "mantle_flows"
+      ],
+      "source_nodes": [
+        "sulfur_vent",
+        "smoke_chamber"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_h2o2_decompose"
+      ],
+      "id": "reaction_h2o2",
+      "memory_id": "memory_02",
+      "obstacle_id": "obstacle_spore_gate",
+      "required_tags": [
+        "dark"
+      ],
+      "route_nodes": [
+        "route_fluorescent_grotto",
+        "route_rust_jungle"
+      ],
+      "shard_id": "shard_dreamer",
+      "source_environments": [
+        "fluorescent_grotto",
+        "rust_jungle"
+      ],
+      "source_nodes": [
+        "spore_lake",
+        "dark_reactor"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_hcl"
+      ],
+      "id": "reaction_cl2",
+      "memory_id": "memory_02",
+      "obstacle_id": "obstacle_sterilization_field",
+      "required_tags": [
+        "electric"
+      ],
+      "route_nodes": [
+        "route_rust_jungle",
+        "route_salt_marsh"
+      ],
+      "shard_id": "shard_cleanser",
+      "source_environments": [
+        "rust_jungle",
+        "salt_marsh"
+      ],
+      "source_nodes": [
+        "chloride_spring",
+        "electric_chlorinator"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_h2o2_decompose"
+      ],
+      "id": "reaction_kmno4",
+      "memory_id": "memory_07",
+      "obstacle_id": "obstacle_radiation_fissure",
+      "required_tags": [
+        "radiation"
+      ],
+      "route_nodes": [
+        "route_radiation_belt",
+        "route_magnetic_plateau"
+      ],
+      "shard_id": "shard_leaker",
+      "source_environments": [
+        "radiation_belt",
+        "magnetic_plateau"
+      ],
+      "source_nodes": [
+        "manganese_fissure",
+        "radiation_lab"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_co2"
+      ],
+      "id": "reaction_ethanol",
+      "memory_id": "memory_02",
+      "obstacle_id": "obstacle_fermentation_lift",
+      "required_tags": [
+        "dark",
+        "wet"
+      ],
+      "route_nodes": [
+        "route_fluorescent_grotto",
+        "route_rust_jungle"
+      ],
+      "shard_id": "shard_dreamer",
+      "source_environments": [
+        "fluorescent_grotto",
+        "rust_jungle"
+      ],
+      "source_nodes": [
+        "fermentation_pool",
+        "organic_chamber"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_lime_cycle"
+      ],
+      "id": "reaction_caco3",
+      "memory_id": "memory_03",
+      "obstacle_id": "obstacle_carbonate_seal",
+      "required_tags": [
+        "wet"
+      ],
+      "route_nodes": [
+        "route_crystal_tundra",
+        "route_fossil_strata"
+      ],
+      "shard_id": "shard_preserver",
+      "source_environments": [
+        "crystal_tundra",
+        "fossil_strata"
+      ],
+      "source_nodes": [
+        "limestone_cave",
+        "carbonate_pool"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_caco3"
+      ],
+      "id": "reaction_caco3_decompose",
+      "memory_id": "memory_08",
+      "obstacle_id": "obstacle_limestone_seal",
+      "required_tags": [
+        "heat"
+      ],
+      "route_nodes": [
+        "route_fossil_strata",
+        "route_ember_rift"
+      ],
+      "shard_id": "shard_memory",
+      "source_environments": [
+        "fossil_strata",
+        "ember_rift"
+      ],
+      "source_nodes": [
+        "limestone_kiln",
+        "hot_cave"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_caco3_decompose"
+      ],
+      "id": "reaction_co2_lime_test",
+      "memory_id": "memory_08",
+      "obstacle_id": "obstacle_hidden_memory",
+      "required_tags": [
+        "wet"
+      ],
+      "route_nodes": [
+        "route_fossil_strata",
+        "route_memory_chamber"
+      ],
+      "shard_id": "shard_memory",
+      "source_environments": [
+        "crystal_tundra",
+        "fossil_strata"
+      ],
+      "source_nodes": [
+        "lime_pool",
+        "hidden_test_chamber"
+      ]
+    },
+    {
+      "alternate_reaction_ids": [
+        "reaction_h2o2"
+      ],
+      "id": "reaction_h2o2_decompose",
+      "memory_id": "memory_02",
+      "obstacle_id": "obstacle_oxygen_release",
+      "required_tags": [
+        "dark"
+      ],
+      "route_nodes": [
+        "route_fluorescent_grotto",
+        "route_topsoil_caves"
+      ],
+      "shard_id": "shard_dreamer",
+      "source_environments": [
+        "fluorescent_grotto",
+        "rust_jungle"
+      ],
+      "source_nodes": [
+        "dark_reactor",
+        "spore_lake"
+      ]
+    }
+  ]
+}

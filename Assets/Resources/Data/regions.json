@@ -1,0 +1,422 @@
+{
+  "order": {
+    "surface": [
+      "dead_city_ruins",
+      "rust_jungle",
+      "crystal_tundra",
+      "salt_marsh",
+      "ember_rift",
+      "sand_desert",
+      "magnetic_plateau"
+    ],
+    "underground": [
+      "topsoil_caves",
+      "fossil_strata",
+      "fluorescent_grotto",
+      "geode_abyss",
+      "abandoned_mine",
+      "radiation_belt",
+      "mantle_flows",
+      "core_shell",
+      "planetary_core"
+    ]
+  },
+  "regions": [
+    {
+      "depth": 0,
+      "id": "prologue_lab",
+      "kind": "surface",
+      "mining_requirements": [],
+      "name_key": "environment.prologue_lab.name",
+      "radiation": 0.0,
+      "resources": [
+        "element_h"
+      ],
+      "shard": "shard_guide",
+      "tags": [
+        "wet"
+      ]
+    },
+    {
+      "depth": 0,
+      "id": "dead_city_ruins",
+      "kind": "surface",
+      "mining_requirements": [],
+      "name_key": "environment.dead_city_ruins.name",
+      "radiation": 0.0,
+      "resources": [
+        "element_h",
+        "element_o"
+      ],
+      "shard": "shard_guide",
+      "tags": [
+        "open_air"
+      ]
+    },
+    {
+      "depth": 0,
+      "id": "rust_jungle",
+      "kind": "surface",
+      "mining_requirements": [
+        {
+          "id": "corrosion",
+          "minimum": 0.3
+        }
+      ],
+      "name_key": "environment.rust_jungle.name",
+      "radiation": 0.02,
+      "resources": [
+        "resource_rust_metal_residue",
+        "resource_chloride_deposit",
+        "element_h",
+        "element_o"
+      ],
+      "shard": "shard_cleanser",
+      "tags": [
+        "wet",
+        "dark"
+      ]
+    },
+    {
+      "depth": 0,
+      "id": "crystal_tundra",
+      "kind": "surface",
+      "mining_requirements": [
+        {
+          "id": "cold",
+          "minimum": 0.25
+        }
+      ],
+      "name_key": "environment.crystal_tundra.name",
+      "radiation": 0.03,
+      "resources": [
+        "element_o",
+        "element_ca",
+        "ion_co3",
+        "resource_frozen_water",
+        "resource_mineral_water",
+        "resource_carbonate_rock"
+      ],
+      "shard": "shard_preserver",
+      "tags": [
+        "cold",
+        "wet"
+      ]
+    },
+    {
+      "depth": 0,
+      "id": "salt_marsh",
+      "kind": "surface",
+      "mining_requirements": [
+        {
+          "id": "corrosion",
+          "minimum": 0.35
+        },
+        {
+          "id": "electrical",
+          "minimum": 0.25
+        }
+      ],
+      "name_key": "environment.salt_marsh.name",
+      "radiation": 0.05,
+      "resources": [
+        "element_cl",
+        "element_na",
+        "element_k",
+        "ion_oh",
+        "element_ag",
+        "ion_no3",
+        "resource_acidic_solution",
+        "resource_alkaline_solution",
+        "resource_mineral_water"
+      ],
+      "shard": "shard_precipitator",
+      "tags": [
+        "wet",
+        "electric"
+      ]
+    },
+    {
+      "depth": 0,
+      "id": "ember_rift",
+      "kind": "surface",
+      "mining_requirements": [
+        {
+          "id": "heat",
+          "minimum": 0.35
+        }
+      ],
+      "name_key": "environment.ember_rift.name",
+      "radiation": 0.12,
+      "resources": [
+        "element_c",
+        "element_s",
+        "element_o",
+        "ion_so4",
+        "element_h"
+      ],
+      "shard": "shard_burner",
+      "tags": [
+        "heat"
+      ]
+    },
+    {
+      "depth": 0,
+      "id": "sand_desert",
+      "kind": "surface",
+      "mining_requirements": [],
+      "name_key": "environment.sand_desert.name",
+      "radiation": 0.04,
+      "resources": [
+        "element_c",
+        "element_ca",
+        "ion_co3"
+      ],
+      "shard": "shard_forgetter",
+      "tags": [
+        "dry"
+      ]
+    },
+    {
+      "depth": 0,
+      "id": "magnetic_plateau",
+      "kind": "surface",
+      "mining_requirements": [
+        {
+          "id": "electrical",
+          "minimum": 0.35
+        }
+      ],
+      "name_key": "environment.magnetic_plateau.name",
+      "radiation": 0.1,
+      "resources": [
+        "element_n",
+        "element_ag",
+        "element_cu",
+        "ion_nh4",
+        "resource_copper_bearing_ore",
+        "resource_silver_bearing_ore"
+      ],
+      "shard": "shard_corrector",
+      "tags": [
+        "electric",
+        "open_air"
+      ]
+    },
+    {
+      "depth": 1,
+      "id": "topsoil_caves",
+      "kind": "underground",
+      "mining_requirements": [],
+      "name_key": "environment.topsoil_caves.name",
+      "radiation": 0.18,
+      "resources": [
+        "element_h",
+        "element_o"
+      ],
+      "shard": "shard_shelter",
+      "tags": [
+        "dark",
+        "wet"
+      ]
+    },
+    {
+      "depth": 2,
+      "id": "fossil_strata",
+      "kind": "underground",
+      "mining_requirements": [],
+      "name_key": "environment.fossil_strata.name",
+      "radiation": 0.28,
+      "resources": [
+        "element_c",
+        "element_ca",
+        "ion_co3",
+        "element_ba",
+        "resource_fossil",
+        "resource_carbonate_rock",
+        "resource_carbonaceous_material"
+      ],
+      "shard": "shard_memory",
+      "tags": [
+        "dry",
+        "dark"
+      ]
+    },
+    {
+      "depth": 3,
+      "id": "fluorescent_grotto",
+      "kind": "underground",
+      "mining_requirements": [
+        {
+          "id": "corrosion",
+          "minimum": 0.15
+        }
+      ],
+      "name_key": "environment.fluorescent_grotto.name",
+      "radiation": 0.36,
+      "resources": [
+        "element_o",
+        "organic_glucose"
+      ],
+      "shard": "shard_dreamer",
+      "tags": [
+        "dark",
+        "low_oxygen",
+        "wet"
+      ]
+    },
+    {
+      "depth": 4,
+      "id": "geode_abyss",
+      "kind": "underground",
+      "mining_requirements": [],
+      "name_key": "environment.geode_abyss.name",
+      "radiation": 0.46,
+      "resources": [
+        "resource_crystal"
+      ],
+      "shard": "shard_echo",
+      "tags": [
+        "dark",
+        "echo"
+      ]
+    },
+    {
+      "depth": 5,
+      "id": "abandoned_mine",
+      "kind": "underground",
+      "mining_requirements": [
+        {
+          "id": "corrosion",
+          "minimum": 0.2
+        }
+      ],
+      "name_key": "environment.abandoned_mine.name",
+      "radiation": 0.56,
+      "resources": [
+        "element_ag",
+        "ion_no3",
+        "element_cu",
+        "element_zn",
+        "element_fe",
+        "element_ba",
+        "resource_iron_bearing_ore",
+        "resource_copper_bearing_ore",
+        "resource_zinc_bearing_ore",
+        "resource_silver_bearing_ore",
+        "resource_barium_mineral",
+        "resource_nitrate_deposit",
+        "resource_mixed_mine_tailings",
+        "resource_mineral_solution"
+      ],
+      "shard": "shard_excavator",
+      "tags": [
+        "dark",
+        "low_oxygen"
+      ]
+    },
+    {
+      "depth": 6,
+      "id": "radiation_belt",
+      "kind": "underground",
+      "mining_requirements": [
+        {
+          "id": "radiation",
+          "minimum": 0.45
+        }
+      ],
+      "name_key": "environment.radiation_belt.name",
+      "radiation": 0.72,
+      "resources": [
+        "resource_mutagen",
+        "resource_mno4"
+      ],
+      "shard": "shard_leaker",
+      "tags": [
+        "radiation",
+        "dark"
+      ]
+    },
+    {
+      "depth": 7,
+      "id": "mantle_flows",
+      "kind": "underground",
+      "mining_requirements": [
+        {
+          "id": "heat",
+          "minimum": 0.55
+        },
+        {
+          "id": "radiation",
+          "minimum": 0.5
+        }
+      ],
+      "name_key": "environment.mantle_flows.name",
+      "radiation": 0.82,
+      "resources": [
+        "element_s",
+        "element_c",
+        "ion_so4"
+      ],
+      "shard": "shard_igniter",
+      "tags": [
+        "heat",
+        "radiation"
+      ]
+    },
+    {
+      "depth": 8,
+      "id": "core_shell",
+      "kind": "underground",
+      "mining_requirements": [
+        {
+          "id": "radiation",
+          "minimum": 0.65
+        },
+        {
+          "id": "electrical",
+          "minimum": 0.55
+        }
+      ],
+      "name_key": "environment.core_shell.name",
+      "radiation": 0.94,
+      "resources": [
+        "resource_core_energy"
+      ],
+      "shard": "shard_gatekeeper",
+      "tags": [
+        "electric",
+        "radiation"
+      ]
+    },
+    {
+      "depth": 9,
+      "id": "planetary_core",
+      "kind": "underground",
+      "mining_requirements": [
+        {
+          "id": "heat",
+          "minimum": 0.8
+        },
+        {
+          "id": "radiation",
+          "minimum": 0.8
+        },
+        {
+          "id": "electrical",
+          "minimum": 0.75
+        }
+      ],
+      "name_key": "environment.planetary_core.name",
+      "radiation": 1.0,
+      "resources": [],
+      "shard": "shard_core_mind",
+      "tags": [
+        "high_pressure",
+        "heat",
+        "electric",
+        "radiation"
+      ]
+    }
+  ]
+}

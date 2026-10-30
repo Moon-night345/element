@@ -1,0 +1,22 @@
+{
+  "core_truth": [
+    "dialogue.ending.core_truth.1",
+    "dialogue.ending.core_truth.2",
+    "dialogue.ending.core_truth.3",
+    "dialogue.ending.core_truth.4"
+  ],
+  "fused": [
+    "dialogue.ending.fused.1",
+    "dialogue.ending.fused.2",
+    "dialogue.ending.fused.3",
+    "dialogue.ending.fused.4",
+    "dialogue.ending.fused.5"
+  ],
+  "sealed": [
+    "dialogue.ending.sealed.1",
+    "dialogue.ending.sealed.2",
+    "dialogue.ending.sealed.3",
+    "dialogue.ending.sealed.4",
+    "dialogue.ending.sealed.5"
+  ]
+}

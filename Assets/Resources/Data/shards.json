@@ -1,0 +1,244 @@
+{
+  "shards": [
+    {
+      "depth_tier": 0,
+      "dialogue": {
+        "accepted": "dialogue.shard.guide.accepted",
+        "calmed": "dialogue.shard.guide.calmed",
+        "hint": "dialogue.shard.guide.hint",
+        "persona": "dialogue.shard.guide.persona",
+        "prompt": "dialogue.shard.guide.prompt",
+        "rejected": "dialogue.shard.guide.rejected"
+      },
+      "id": "shard_guide",
+      "key": "guide",
+      "language": "language_rise_freedom",
+      "name_key": "content.shard.guide.name"
+    },
+    {
+      "depth_tier": 0,
+      "dialogue": {
+        "accepted": "dialogue.shard.cleanser.accepted",
+        "calmed": "dialogue.shard.cleanser.calmed",
+        "hint": "dialogue.shard.cleanser.hint",
+        "persona": "dialogue.shard.cleanser.persona",
+        "prompt": "dialogue.shard.cleanser.prompt",
+        "rejected": "dialogue.shard.cleanser.rejected"
+      },
+      "id": "shard_cleanser",
+      "key": "cleanser",
+      "language": "language_cleanse",
+      "name_key": "content.shard.cleanser.name"
+    },
+    {
+      "depth_tier": 0,
+      "dialogue": {
+        "accepted": "dialogue.shard.preserver.accepted",
+        "calmed": "dialogue.shard.preserver.calmed",
+        "hint": "dialogue.shard.preserver.hint",
+        "persona": "dialogue.shard.preserver.persona",
+        "prompt": "dialogue.shard.preserver.prompt",
+        "rejected": "dialogue.shard.preserver.rejected"
+      },
+      "id": "shard_preserver",
+      "key": "preserver",
+      "language": "language_store",
+      "name_key": "content.shard.preserver.name"
+    },
+    {
+      "depth_tier": 0,
+      "dialogue": {
+        "accepted": "dialogue.shard.precipitator.accepted",
+        "calmed": "dialogue.shard.precipitator.calmed",
+        "hint": "dialogue.shard.precipitator.hint",
+        "persona": "dialogue.shard.precipitator.persona",
+        "prompt": "dialogue.shard.precipitator.prompt",
+        "rejected": "dialogue.shard.precipitator.rejected"
+      },
+      "id": "shard_precipitator",
+      "key": "precipitator",
+      "language": "language_witness",
+      "name_key": "content.shard.precipitator.name"
+    },
+    {
+      "depth_tier": 0,
+      "dialogue": {
+        "accepted": "dialogue.shard.burner.accepted",
+        "calmed": "dialogue.shard.burner.calmed",
+        "hint": "dialogue.shard.burner.hint",
+        "persona": "dialogue.shard.burner.persona",
+        "prompt": "dialogue.shard.burner.prompt",
+        "rejected": "dialogue.shard.burner.rejected"
+      },
+      "id": "shard_burner",
+      "key": "burner",
+      "language": "language_burn",
+      "name_key": "content.shard.burner.name"
+    },
+    {
+      "depth_tier": 0,
+      "dialogue": {
+        "accepted": "dialogue.shard.forgetter.accepted",
+        "calmed": "dialogue.shard.forgetter.calmed",
+        "hint": "dialogue.shard.forgetter.hint",
+        "persona": "dialogue.shard.forgetter.persona",
+        "prompt": "dialogue.shard.forgetter.prompt",
+        "rejected": "dialogue.shard.forgetter.rejected"
+      },
+      "id": "shard_forgetter",
+      "key": "forgetter",
+      "language": "language_fade",
+      "name_key": "content.shard.forgetter.name"
+    },
+    {
+      "depth_tier": 0,
+      "dialogue": {
+        "accepted": "dialogue.shard.corrector.accepted",
+        "calmed": "dialogue.shard.corrector.calmed",
+        "hint": "dialogue.shard.corrector.hint",
+        "persona": "dialogue.shard.corrector.persona",
+        "prompt": "dialogue.shard.corrector.prompt",
+        "rejected": "dialogue.shard.corrector.rejected"
+      },
+      "id": "shard_corrector",
+      "key": "corrector",
+      "language": "language_balance",
+      "name_key": "content.shard.corrector.name"
+    },
+    {
+      "depth_tier": 1,
+      "dialogue": {
+        "accepted": "dialogue.shard.shelter.accepted",
+        "calmed": "dialogue.shard.shelter.calmed",
+        "hint": "dialogue.shard.shelter.hint",
+        "persona": "dialogue.shard.shelter.persona",
+        "prompt": "dialogue.shard.shelter.prompt",
+        "rejected": "dialogue.shard.shelter.rejected"
+      },
+      "id": "shard_shelter",
+      "key": "shelter",
+      "language": "language_store",
+      "name_key": "content.shard.shelter.name"
+    },
+    {
+      "depth_tier": 1,
+      "dialogue": {
+        "accepted": "dialogue.shard.memory.accepted",
+        "calmed": "dialogue.shard.memory.calmed",
+        "hint": "dialogue.shard.memory.hint",
+        "persona": "dialogue.shard.memory.persona",
+        "prompt": "dialogue.shard.memory.prompt",
+        "rejected": "dialogue.shard.memory.rejected"
+      },
+      "id": "shard_memory",
+      "key": "memory",
+      "language": "language_anchor",
+      "name_key": "content.shard.memory.name"
+    },
+    {
+      "depth_tier": 1,
+      "dialogue": {
+        "accepted": "dialogue.shard.dreamer.accepted",
+        "calmed": "dialogue.shard.dreamer.calmed",
+        "hint": "dialogue.shard.dreamer.hint",
+        "persona": "dialogue.shard.dreamer.persona",
+        "prompt": "dialogue.shard.dreamer.prompt",
+        "rejected": "dialogue.shard.dreamer.rejected"
+      },
+      "id": "shard_dreamer",
+      "key": "dreamer",
+      "language": "language_ferment",
+      "name_key": "content.shard.dreamer.name"
+    },
+    {
+      "depth_tier": 1,
+      "dialogue": {
+        "accepted": "dialogue.shard.echo.accepted",
+        "calmed": "dialogue.shard.echo.calmed",
+        "hint": "dialogue.shard.echo.hint",
+        "persona": "dialogue.shard.echo.persona",
+        "prompt": "dialogue.shard.echo.prompt",
+        "rejected": "dialogue.shard.echo.rejected"
+      },
+      "id": "shard_echo",
+      "key": "echo",
+      "language": "language_water",
+      "name_key": "content.shard.echo.name"
+    },
+    {
+      "depth_tier": 1,
+      "dialogue": {
+        "accepted": "dialogue.shard.excavator.accepted",
+        "calmed": "dialogue.shard.excavator.calmed",
+        "hint": "dialogue.shard.excavator.hint",
+        "persona": "dialogue.shard.excavator.persona",
+        "prompt": "dialogue.shard.excavator.prompt",
+        "rejected": "dialogue.shard.excavator.rejected"
+      },
+      "id": "shard_excavator",
+      "key": "excavator",
+      "language": "language_forge",
+      "name_key": "content.shard.excavator.name"
+    },
+    {
+      "depth_tier": 2,
+      "dialogue": {
+        "accepted": "dialogue.shard.leaker.accepted",
+        "calmed": "dialogue.shard.leaker.calmed",
+        "hint": "dialogue.shard.leaker.hint",
+        "persona": "dialogue.shard.leaker.persona",
+        "prompt": "dialogue.shard.leaker.prompt",
+        "rejected": "dialogue.shard.leaker.rejected"
+      },
+      "id": "shard_leaker",
+      "key": "leaker",
+      "language": "language_reveal",
+      "name_key": "content.shard.leaker.name"
+    },
+    {
+      "depth_tier": 2,
+      "dialogue": {
+        "accepted": "dialogue.shard.igniter.accepted",
+        "calmed": "dialogue.shard.igniter.calmed",
+        "hint": "dialogue.shard.igniter.hint",
+        "persona": "dialogue.shard.igniter.persona",
+        "prompt": "dialogue.shard.igniter.prompt",
+        "rejected": "dialogue.shard.igniter.rejected"
+      },
+      "id": "shard_igniter",
+      "key": "igniter",
+      "language": "language_fuel",
+      "name_key": "content.shard.igniter.name"
+    },
+    {
+      "depth_tier": 2,
+      "dialogue": {
+        "accepted": "dialogue.shard.gatekeeper.accepted",
+        "calmed": "dialogue.shard.gatekeeper.calmed",
+        "hint": "dialogue.shard.gatekeeper.hint",
+        "persona": "dialogue.shard.gatekeeper.persona",
+        "prompt": "dialogue.shard.gatekeeper.prompt",
+        "rejected": "dialogue.shard.gatekeeper.rejected"
+      },
+      "id": "shard_gatekeeper",
+      "key": "gatekeeper",
+      "language": "language_dissection",
+      "name_key": "content.shard.gatekeeper.name"
+    },
+    {
+      "depth_tier": 2,
+      "dialogue": {
+        "accepted": "dialogue.shard.core_mind.accepted",
+        "calmed": "dialogue.shard.core_mind.calmed",
+        "hint": "dialogue.shard.core_mind.hint",
+        "persona": "dialogue.shard.core_mind.persona",
+        "prompt": "dialogue.shard.core_mind.prompt",
+        "rejected": "dialogue.shard.core_mind.rejected"
+      },
+      "id": "shard_core_mind",
+      "key": "core_mind",
+      "language": "language_assault",
+      "name_key": "content.shard.core_mind.name"
+    }
+  ]
+}

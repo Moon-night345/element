@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "pixels_per_unit": 32,
+  "attack_interval": 0.9,
+  "stop_distance": 56,
+  "attack_range": 72,
+  "reach": 160,
+  "pointer_radius": 36,
+  "click_damage": 12,
+  "spawn_offset": 560,
+  "radiation_speed": 24,
+  "radiation_damage": 4,
+  "enemies": [
+    {
+      "kind": "wreckage_wanderer",
+      "health": 28.0,
+      "speed": 26.0,
+      "damage": 4.0,
+      "drop": "element_h",
+      "region_id": "dead_city_ruins",
+      "radiation": 0.0,
+      "shape": "scavenger",
+      "body": "#b76558",
+      "accent": "#e4bd7b",
+      "scale": 1.0
+    },
+    {
+      "kind": "acid_vine",
+      "health": 34.0,
+      "speed": 20.0,
+      "damage": 5.0,
+      "drop": "resource_chloride_deposit",
+      "region_id": "rust_jungle",
+      "radiation": 0.02,
+      "shape": "vine",
+      "body": "#6da15c",
+      "accent": "#d6e36f",
+      "scale": 1.1
+    },
+    {
+      "kind": "frost_guardian",
+      "health": 46.0,
+      "speed": 18.0,
+      "damage": 6.0,
+      "drop": "element_ca",
+      "region_id": "crystal_tundra",
+      "radiation": 0.03,
+      "shape": "crystal",
+      "body": "#8ac7da",
+      "accent": "#e7fbff",
+      "scale": 1.2
+    },
+    {
+      "kind": "salt_shell_crawler",
+      "health": 40.0,
+      "speed": 24.0,
+      "damage": 6.0,
+      "drop": "element_na",
+      "region_id": "salt_marsh",
+      "radiation": 0.05,
+      "shape": "shell",
+      "body": "#b8a06c",
+      "accent": "#f3dc9b",
+      "scale": 1.0
+    },
+    {
+      "kind": "ember_crawler",
+      "health": 52.0,
+      "speed": 30.0,
+      "damage": 8.0,
+      "drop": "element_s",
+      "region_id": "ember_rift",
+      "radiation": 0.12,
+      "shape": "crawler",
+      "body": "#cf5e3f",
+      "accent": "#ffc36a",
+      "scale": 1.15
+    },
+    {
+      "kind": "sand_buried",
+      "health": 44.0,
+      "speed": 34.0,
+      "damage": 7.0,
+      "drop": "element_c",
+      "region_id": "sand_desert",
+      "radiation": 0.04,
+      "shape": "burrower",
+      "body": "#bd8852",
+      "accent": "#f0ca7c",
+      "scale": 1.05
+    },
+    {
+      "kind": "storm_orb",
+      "health": 58.0,
+      "speed": 38.0,
+      "damage": 9.0,
+      "drop": "element_cu",
+      "region_id": "magnetic_plateau",
+      "radiation": 0.1,
+      "shape": "orb",
+      "body": "#6e83d0",
+      "accent": "#c3e3ff",
+      "scale": 1.0
+    },
+    {
+      "kind": "cave_rat",
+      "health": 24.0,
+      "speed": 32.0,
+      "damage": 4.0,
+      "drop": "resource_soil",
+      "region_id": "topsoil_caves",
+      "radiation": 0.18,
+      "shape": "rat",
+      "body": "#8a7168",
+      "accent": "#c6a28e",
+      "scale": 0.8
+    },
+    {
+      "kind": "bone_walker",
+      "health": 50.0,
+      "speed": 22.0,
+      "damage": 7.0,
+      "drop": "element_ca",
+      "region_id": "fossil_strata",
+      "radiation": 0.28,
+      "shape": "skeleton",
+      "body": "#bda989",
+      "accent": "#f0d8a9",
+      "scale": 1.0
+    },
+    {
+      "kind": "fungus_beast",
+      "health": 62.0,
+      "speed": 19.0,
+      "damage": 10.0,
+      "drop": "organic_glucose",
+      "region_id": "fluorescent_grotto",
+      "radiation": 0.36,
+      "shape": "fungus",
+      "body": "#4fba91",
+      "accent": "#c2f58f",
+      "scale": 1.25
+    },
+    {
+      "kind": "echo_body",
+      "health": 70.0,
+      "speed": 25.0,
+      "damage": 10.0,
+      "drop": "resource_crystal",
+      "region_id": "geode_abyss",
+      "radiation": 0.46,
+      "shape": "echo",
+      "body": "#9276db",
+      "accent": "#efd8ff",
+      "scale": 1.1
+    },
+    {
+      "kind": "mining_drone",
+      "health": 78.0,
+      "speed": 23.0,
+      "damage": 11.0,
+      "drop": "element_fe",
+      "region_id": "abandoned_mine",
+      "radiation": 0.56,
+      "shape": "drone",
+      "body": "#9a8b76",
+      "accent": "#f0bf71",
+      "scale": 1.0
+    },
+    {
+      "kind": "radiation_mutant",
+      "health": 92.0,
+      "speed": 29.0,
+      "damage": 14.0,
+      "drop": "resource_mutagen",
+      "region_id": "radiation_belt",
+      "radiation": 0.72,
+      "shape": "mutant",
+      "body": "#78a45d",
+      "accent": "#ec84ac",
+      "scale": 1.15
+    },
+    {
+      "kind": "lava_colossus",
+      "health": 120.0,
+      "speed": 16.0,
+      "damage": 17.0,
+      "drop": "element_s",
+      "region_id": "mantle_flows",
+      "radiation": 0.82,
+      "shape": "colossus",
+      "body": "#a64032",
+      "accent": "#ffd17a",
+      "scale": 1.5
+    },
+    {
+      "kind": "energy_wraith",
+      "health": 140.0,
+      "speed": 42.0,
+      "damage": 20.0,
+      "drop": "resource_core_energy",
+      "region_id": "core_shell",
+      "radiation": 0.94,
+      "shape": "wraith",
+      "body": "#697ee0",
+      "accent": "#d0e5ff",
+      "scale": 1.3
+    }
+  ],
+  "source_hashes": [
+    {
+      "path": "src/combat/combat_model.gd",
+      "sha256": "840b5121e42b3567c67303b9a85d1d5efeceb2d054e8d5962fc04b9ca6f280e3"
+    },
+    {
+      "path": "src/world/world_content_catalog.gd",
+      "sha256": "33d951db3c9c20c11111871af4dc3ecce79896c822c5893c6498b5965462a351"
+    },
+    {
+      "path": "src/world/environment_art_catalog.gd",
+      "sha256": "f7cb517ea4b25bfabda85db23a6ce729b32208b93fdb21596fa06cd21999b3bb"
+    },
+    {
+      "path": "src/world/sandbox_world.gd",
+      "sha256": "385f85d7c7de62a776b005feb3ed8356ca93715a288ed1e381cbd1aa12cc4255"
+    },
+    {
+      "path": "src/session/world_session.gd",
+      "sha256": "b266294d165c0302848d16ee7f727321093c1477dab51468b9741daaac1fd3ee"
+    }
+  ]
+}
