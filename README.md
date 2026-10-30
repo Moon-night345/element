@@ -4,11 +4,9 @@
 
 这是现有 Godot 项目向 Unity 迁移后的当前工作版本，包含工程源码、游戏资源、数据、阶段记录和可运行 Windows 演示包。
 
-### 直接运行
+### 当前仓库内容
 
-下载 [Windows 提交演示包](Builds/Deliverables/AstralElementSea_Windows_Submission_2026-10-30.zip)，整体解压后运行 `Windows/ElementalStarSea.exe`。不要只复制 exe；请保留同目录的 Data、Mono 和 UnityPlayer.dll。操作步骤见压缩包内的 `开始游玩.txt`。
-
-包 SHA256：`8555727D2F77C6CCA13500D590F98882D304562A0EA40D088C1A8E8FD1043947`。
+当前仓库已上传 Unity 工程源码、场景、资源、数据、版本锁定配置和阶段文档。Windows 最终提交压缩包因大文件上传失败，尚未包含在此仓库；请按下方步骤打开工程或自行构建。仓库中的 SHA256 文件仅记录本机成品包校验值，不代表成品包已上传。
 
 ### 打开工程
 
@@ -29,4 +27,4 @@ A/D 或左右键移动，空格跳跃，E 交互，C 合成，TAB 背包，D 设
 
 本版是可运行的提交演示版，不表示所有 Godot 内容已经完成迁移。界面比例、长内容滚动、主要面板、系统面板按键、序章演示、新建/加载和解压启动已做检查。证据与范围见 [提交检查记录](SUBMISSION_CHECKLIST_2026-10-30.md)；完整迁移待办见 [迁移基线](MIGRATION_90_COVERAGE_BASELINE_2026-10-18.md)。
 
-仓库不包含 Unity Library/Temp 缓存、临时日志、测试存档或旧验证目录；这些文件会在本机按需生成。Windows 最新提交包作为明确的交付文件单独保留。
+仓库不包含 Unity Library/Temp 缓存、临时日志、测试存档或旧验证目录；这些文件会在本机按需生成。Windows 最新提交包保留在本机，尚未上传。
